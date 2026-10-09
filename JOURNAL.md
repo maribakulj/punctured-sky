@@ -631,3 +631,43 @@ juge, marge de 15 points) ; `make analyses figures` refait tous les chiffres san
 **Pour Marcel** : Codex propose de déplacer le projet vers une question doctorale (reproductions
 comme preuves historiques ; pilote sur le *Rhinocéros* de Dürer). C'est un autre projet ; je ne le
 lance pas sans décision.
+
+## 2026-10-09 — Pilote « cadre social » : le cadre met un prix sur l'inconnu
+
+Questions de Marcel (08/10) : un cadre doré autour de quelque chose qui n'est pas de l'art ? le
+cadre change-t-il la lecture de la pièce, du statut, du sens social (rococo) ? et ce qui influence
+la machine *sans qu'on le lui demande*. Pilote décidé avec Marcel (lecture Sonnet, juge Haiku ;
+second lecteur Gemini Flash dans un onglet herdr, en attente d'autorisations).
+
+**Matériel** (regardé sur planches avant toute mesure, trois corrections : Monet trop pâle remplacé
+par Renoir ; taille du contenu fixée pour tous les cadres — le cadre déborde autour ; cuisine
+recadrée) : 5 contenus (Renoir, *Les Filles de Catulle Mendès* ; Mondrian, *Composition* 1921 ;
+un dessin d'enfant ; une photo amateur de plage ; un ticket de caisse) × 5 cadres (aucun ; noir fin
+moderne, fabriqué ; doré classique, cadre d'un David ; noir hollandais à ondes, Met ; rococo doré
+de Paul Petit vers 1740) × 4 espaces (gris ; salle blanche fabriquée ; vrai salon ; vraie cuisine)
+= 100 images. Les cadres réels sont détourés et ajustés par découpe en cinq (coins et ornements
+centraux gardés) : le contenu n'est jamais recadré. Sources et licences : `data/social/SOURCES.md`.
+
+**Questions**, à l'aveugle, en deux appels : « que représente cette image ? » seule ; puis des
+questions indirectes qui ne parlent jamais de cadre (titre, lieu, époque, prix, propriétaire,
+est-ce de l'art, trois adjectifs). Juge Haiku sur la première réponse.
+
+**Résultat** (`results/social/pilot.json`, 2 images par case sur gris + galerie, à confirmer) :
+
+| prix médian | aucun | noir fin | doré classique | noir hollandais | rococo |
+| --- | --- | --- | --- | --- | --- |
+| ticket | 0,01 € | 0,01 € | 90 € | 1 650 € | 9 500 € |
+| dessin d'enfant | 2,5 € | 22,5 € | 150 € | 225 € | 5 000 € |
+| photo de plage | 150 € | 95 € | 800 € | 1 500 € | 21 500 € |
+| Renoir, Mondrian | 25–50 M€ quel que soit le cadre | | | | |
+
+Le cadre ancien fait du dessin d'enfant une œuvre (décrit comme œuvre 0/2 sans cadre ou en cadre
+moderne, 2/2 dans les trois cadres anciens) et lui donne un propriétaire institutionnel (musée,
+collection). Le ticket dans le cadre rococo devient « ironique », attribué à « un musée ou une
+collection publique ». **Le cadre agit comme un signifiant social — mais seulement sur ce que le
+modèle ne reconnaît pas** : le Renoir et le Mondrian, reconnus, gardent leur prix. Dans le salon et
+la cuisine, la pièce devient le sujet (0 % sujet principal) et le musée disparaît des lectures :
+la saillance revient. Le cadre noir fin moderne ne valorise rien.
+
+Limites : un pilote (2 images par case), un seul modèle lecteur pour l'instant, prix extraits du
+texte ; dans les pièces, « l'objet principal » est ambigu (le prix porte alors sur la pièce).
