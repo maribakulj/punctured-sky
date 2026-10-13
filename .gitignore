@@ -13,3 +13,7 @@ data/social/src/spaces2/
 data/social/src/frames/*.jpg
 data/social/src/frames/*.png
 data/social/gemini/img/
+data/ycba/img/
+data/ycba/crops/
+data/ycba/gemini/img/
+data/ycba/gemini/planches/
