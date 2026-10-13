@@ -44,6 +44,26 @@ def load(source: str = "claude") -> dict:
             k = f"soc|{it['content']}|{it['frame']}|{it['space']}"
             rows[k] = {**it, "subject": R[k]["subject_only"].get("subject"), "social": R[k]["social"],
                        "judge": J.get(k, {})}
+    else:  # gemini: opaque file -> key through the blind map
+        fmap = {}
+        for l in open("data/blind/map.jsonl"):
+            r = json.loads(l)
+            fmap[r["file"]] = r["key"]
+        R = defaultdict(dict)
+        for l in open("data/social/gemini/readings.jsonl"):
+            r = json.loads(l)
+            if "file" in r:
+                R[fmap[r["file"]]][r["which"]] = r["answer"]
+        J = {}
+        p = Path("data/annotations/social_judged_gemini.jsonl")
+        if p.exists():
+            for l in p.open():
+                r = json.loads(l)
+                J[r["key"]] = r
+        for it in ITEMS["items"]:
+            k = f"soc|{it['content']}|{it['frame']}|{it['space']}"
+            rows[k] = {**it, "subject": R[k]["subject_only"].get("subject"), "social": R[k]["social"],
+                       "judge": J.get(k, {})}
     return rows
 
 
@@ -87,10 +107,14 @@ def summarise(rows: dict) -> dict:
 
 
 def main() -> None:
-    rows = load()
+    import sys
+    source = sys.argv[1] if len(sys.argv) > 1 else "claude"
+    rows = load(source)
     out = summarise(rows)
     Path("results/social").mkdir(parents=True, exist_ok=True)
-    json.dump(out, open("results/social/pilot.json", "w"), indent=1, ensure_ascii=False)
+    name = "pilot.json" if source == "claude" else f"pilot-{source}.json"
+    json.dump(out, open(f"results/social/{name}", "w"), indent=1, ensure_ascii=False)
+    print("lecteur :", source)
     for dim in ("frame", "space"):
         print(f"\n== par {dim} (n par case)")
         keys = ["subject_main", "described_as_artwork", "frame_mentioned", "art_oui", "art_non",

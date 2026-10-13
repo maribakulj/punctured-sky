@@ -67,15 +67,16 @@ def axis_map(n_src: int, a: int, b: int, keep: float, n_dst: int) -> np.ndarray:
     return np.clip(np.concatenate(parts).astype(int), 0, n_src - 1)
 
 
-def framed(im: Image.Image, frame: str, meta: dict) -> tuple[Image.Image, int]:
-    """Content inside the frame, as RGBA (content never cropped), and the content's width in it."""
+def framed(im: Image.Image, frame: str, meta: dict) -> tuple[Image.Image, int, tuple[int, int]]:
+    """Content inside the frame, as RGBA (content never cropped), the content's width in it, and
+    the content's offset in it."""
     if frame == "none":
-        return im.convert("RGBA"), im.width
+        return im.convert("RGBA"), im.width, (0, 0)
     if frame == "modern":
         t = max(6, int(0.022 * max(im.size)))
         out = Image.new("RGBA", (im.width + 2 * t, im.height + 2 * t), (22, 22, 24, 255))
         out.paste(im, (t, t))
-        return out, im.width
+        return out, im.width, (t, t)
     m = meta[f"frame_{frame}"]
     fr = np.asarray(Image.open(FR / m["file"]).convert("RGBA"))
     x0, y0, x1, y1 = m["opening"]
@@ -91,17 +92,25 @@ def framed(im: Image.Image, frame: str, meta: dict) -> tuple[Image.Image, int]:
     under = Image.new("RGBA", out.size, (0, 0, 0, 0))
     under.paste(im.resize((tw + 4, th + 4), Image.LANCZOS), (x0 - 2, y0 - 2))
     under.alpha_composite(out)
-    return under, tw
+    return under, tw, (x0, y0)
+
+
+BOXES: dict = {}
 
 
 def shadow_paste(bg: Image.Image, obj: Image.Image, cw: int, ar: float, cx: float, cy: float,
-                 max_w: float, max_h: float) -> Image.Image:
+                 max_w: float, max_h: float, off: tuple[int, int] = (0, 0)) -> Image.Image:
     """The content (width cw in obj, aspect ar) gets the same size whatever the frame: it fits
     a box of max_w x max_h of the background; the frame extends around it."""
     W, H = bg.size
     s = min(max_w * W, max_h * H * ar) / cw
     obj = obj.resize((max(1, int(obj.width * s)), max(1, int(obj.height * s))), Image.LANCZOS)
     x, y = int(cx * W - obj.width / 2), int(cy * H - obj.height / 2)
+    ab = obj.split()[3].getbbox()
+    BOXES["object"] = [x + ab[0], y + ab[1], x + ab[2], y + ab[3]]
+    BOXES["content"] = [x + off[0] * s, y + off[1] * s, x + (off[0] + cw) * s,
+                        y + off[1] * s + cw * s / ar]
+    BOXES["size"] = list(bg.size)
     a = obj.split()[3]
     sh = Image.new("L", bg.size, 0)
     off = max(3, obj.height // 60)
@@ -125,18 +134,18 @@ def gallery() -> Image.Image:
     return Image.fromarray(np.clip(img, 0, 255).astype(np.uint8))
 
 
-def place(obj: Image.Image, cw: int, ar: float, space: str) -> Image.Image:
+def place(obj: Image.Image, cw: int, ar: float, space: str, off: tuple[int, int] = (0, 0)) -> Image.Image:
     if space == "grey":
         bg = Image.new("RGB", (1600, 1200), (128, 128, 128))
-        return shadow_paste(bg, obj, cw, ar, 0.5, 0.5, 0.40, 0.42)
+        return shadow_paste(bg, obj, cw, ar, 0.5, 0.5, 0.40, 0.42, off)
     if space == "gallery":
-        return shadow_paste(gallery(), obj, cw, ar, 0.5, 0.42, 0.26, 0.30)
+        return shadow_paste(gallery(), obj, cw, ar, 0.5, 0.42, 0.26, 0.30, off)
     if space == "salon":
         bg = Image.open(SRC / "space_salon.jpg").convert("RGB")
-        return shadow_paste(bg, obj, cw, ar, 0.43, 0.15, 0.20, 0.145)
+        return shadow_paste(bg, obj, cw, ar, 0.43, 0.15, 0.20, 0.145, off)
     bg = Image.open(SRC / "space_kitchen.jpg").convert("RGB")
     bg = bg.crop((0, 0, bg.width, int(bg.height * 0.6)))
-    return shadow_paste(bg, obj, cw, ar, 0.815, 0.42, 0.105, 0.23)
+    return shadow_paste(bg, obj, cw, ar, 0.815, 0.42, 0.105, 0.23, off)
 
 
 def main() -> None:
@@ -147,13 +156,16 @@ def main() -> None:
         im = content(c)
         im.thumbnail((1400, 1400))
         for f in FRAMES:
-            obj, cw = framed(im, f, meta)
+            obj, cw, off = framed(im, f, meta)
             for s in SPACES:
                 name = f"{c}__{f}__{s}.jpg"
-                out = place(obj, cw, im.width / im.height, s)
+                out = place(obj, cw, im.width / im.height, s, off)
+                k = min(1.0, 1600 / max(out.size))
                 out.thumbnail((1600, 1600))
                 out.save(OUT / name, quality=90)
-                items.append({"file": name, "content": c, "frame": f, "space": s})
+                boxes = {b: [round(v * k, 1) for v in BOXES[b]] for b in ("object", "content")}
+                items.append({"file": name, "content": c, "frame": f, "space": s,
+                              "size": list(out.size), **{f"{b}_box": v for b, v in boxes.items()}})
     (Path("data/social") / "items.json").write_text(json.dumps(
         {"contents": CONTENTS, "frames": FRAMES, "spaces": SPACES, "items": items}, indent=1))
     print(len(items), "images")

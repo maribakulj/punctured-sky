@@ -1,0 +1,295 @@
+{
+ "by_frame": {
+  "none": {
+   "n": 20,
+   "subject_main": 0.65,
+   "described_as_artwork": 0.4,
+   "frame_mentioned": 0.55,
+   "art_oui": 0.5,
+   "art_non": 0.45,
+   "place_museum": 0.3,
+   "owner_institution": 0.3
+  },
+  "modern": {
+   "n": 20,
+   "subject_main": 0.65,
+   "described_as_artwork": 0.5,
+   "frame_mentioned": 0.85,
+   "art_oui": 0.65,
+   "art_non": 0.2,
+   "place_museum": 0.5,
+   "owner_institution": 0.25
+  },
+  "classic": {
+   "n": 20,
+   "subject_main": 0.6,
+   "described_as_artwork": 0.8,
+   "frame_mentioned": 1.0,
+   "art_oui": 0.75,
+   "art_non": 0.1,
+   "place_museum": 0.5,
+   "owner_institution": 0.45
+  },
+  "ebonized": {
+   "n": 20,
+   "subject_main": 0.65,
+   "described_as_artwork": 0.5,
+   "frame_mentioned": 1.0,
+   "art_oui": 0.75,
+   "art_non": 0.1,
+   "place_museum": 0.5,
+   "owner_institution": 0.5
+  },
+  "rococo": {
+   "n": 20,
+   "subject_main": 0.55,
+   "described_as_artwork": 0.7,
+   "frame_mentioned": 1.0,
+   "art_oui": 0.8,
+   "art_non": 0.0,
+   "place_museum": 0.5,
+   "owner_institution": 0.6
+  }
+ },
+ "by_space": {
+  "grey": {
+   "n": 25,
+   "subject_main": 0.92,
+   "described_as_artwork": 0.6,
+   "frame_mentioned": 0.8,
+   "art_oui": 0.8,
+   "art_non": 0.08,
+   "place_museum": 0.88,
+   "owner_institution": 0.8
+  },
+  "gallery": {
+   "n": 25,
+   "subject_main": 0.96,
+   "described_as_artwork": 0.68,
+   "frame_mentioned": 1.0,
+   "art_oui": 0.92,
+   "art_non": 0.08,
+   "place_museum": 0.96,
+   "owner_institution": 0.8
+  },
+  "salon": {
+   "n": 25,
+   "subject_main": 0.36,
+   "described_as_artwork": 0.52,
+   "frame_mentioned": 0.88,
+   "art_oui": 0.64,
+   "art_non": 0.12,
+   "place_museum": 0.0,
+   "owner_institution": 0.04
+  },
+  "kitchen": {
+   "n": 25,
+   "subject_main": 0.24,
+   "described_as_artwork": 0.52,
+   "frame_mentioned": 0.84,
+   "art_oui": 0.4,
+   "art_non": 0.4,
+   "place_museum": 0.0,
+   "owner_institution": 0.04
+  }
+ },
+ "price_median_grey_gallery": {
+  "renoir": {
+   "none": 775000.0,
+   "modern": 475225.0,
+   "classic": 11000000.0,
+   "ebonized": 8500000.0,
+   "rococo": 15000000.0
+  },
+  "mondrian": {
+   "none": 5000000.0,
+   "modern": 6500000.0,
+   "classic": 4000000.0,
+   "ebonized": 2975000.0,
+   "rococo": 4500000.0
+  },
+  "child": {
+   "none": 0.0,
+   "modern": 165.0,
+   "classic": 400.0,
+   "ebonized": 375.0,
+   "rococo": 1350.0
+  },
+  "beach": {
+   "none": 650.0,
+   "modern": 6250.0,
+   "classic": 600.0,
+   "ebonized": 850.0,
+   "rococo": 2150.0
+  },
+  "receipt": {
+   "none": 17.0,
+   "modern": 275.0,
+   "classic": 800.0,
+   "ebonized": 525.0,
+   "rococo": 1650.0
+  }
+ },
+ "content_by_frame_isolated": {
+  "renoir": {
+   "none": {
+    "as_artwork": 2,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   },
+   "modern": {
+    "as_artwork": 2,
+    "place_museum": 2,
+    "owner_institution": 1,
+    "n": 2
+   },
+   "classic": {
+    "as_artwork": 2,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   },
+   "ebonized": {
+    "as_artwork": 2,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   },
+   "rococo": {
+    "as_artwork": 2,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   }
+  },
+  "mondrian": {
+   "none": {
+    "as_artwork": 2,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   },
+   "modern": {
+    "as_artwork": 2,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   },
+   "classic": {
+    "as_artwork": 2,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   },
+   "ebonized": {
+    "as_artwork": 2,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   },
+   "rococo": {
+    "as_artwork": 2,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   }
+  },
+  "child": {
+   "none": {
+    "as_artwork": 0,
+    "place_museum": 1,
+    "owner_institution": 0,
+    "n": 2
+   },
+   "modern": {
+    "as_artwork": 0,
+    "place_museum": 2,
+    "owner_institution": 1,
+    "n": 2
+   },
+   "classic": {
+    "as_artwork": 2,
+    "place_museum": 2,
+    "owner_institution": 1,
+    "n": 2
+   },
+   "ebonized": {
+    "as_artwork": 1,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   },
+   "rococo": {
+    "as_artwork": 1,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   }
+  },
+  "beach": {
+   "none": {
+    "as_artwork": 0,
+    "place_museum": 1,
+    "owner_institution": 2,
+    "n": 2
+   },
+   "modern": {
+    "as_artwork": 2,
+    "place_museum": 2,
+    "owner_institution": 1,
+    "n": 2
+   },
+   "classic": {
+    "as_artwork": 2,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   },
+   "ebonized": {
+    "as_artwork": 0,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   },
+   "rococo": {
+    "as_artwork": 1,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   }
+  },
+  "receipt": {
+   "none": {
+    "as_artwork": 0,
+    "place_museum": 0,
+    "owner_institution": 0,
+    "n": 2
+   },
+   "modern": {
+    "as_artwork": 0,
+    "place_museum": 2,
+    "owner_institution": 0,
+    "n": 2
+   },
+   "classic": {
+    "as_artwork": 1,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   },
+   "ebonized": {
+    "as_artwork": 1,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   },
+   "rococo": {
+    "as_artwork": 1,
+    "place_museum": 2,
+    "owner_institution": 2,
+    "n": 2
+   }
+  }
+ }
+}

@@ -24,601 +24,2201 @@
    "file": "renoir__none__grey.jpg",
    "content": "renoir",
    "frame": "none",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    596.0,
+    348.0,
+    1003.0,
+    852.0
+   ],
+   "content_box": [
+    596.0,
+    348.0,
+    1003.6,
+    852.0
+   ]
   },
   {
    "file": "renoir__none__gallery.jpg",
    "content": "renoir",
    "frame": "none",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    654.0,
+    324.0,
+    945.0,
+    684.0
+   ],
+   "content_box": [
+    654.0,
+    324.0,
+    945.2,
+    684.0
+   ]
   },
   {
    "file": "renoir__none__salon.jpg",
    "content": "renoir",
    "frame": "none",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    625.0,
+    82.5,
+    750.0,
+    236.7
+   ],
+   "content_box": [
+    625.0,
+    82.5,
+    750.3,
+    237.4
+   ]
   },
   {
    "file": "renoir__none__kitchen.jpg",
    "content": "renoir",
    "frame": "none",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1220.0,
+    500.8,
+    1387.5,
+    708.3
+   ],
+   "content_box": [
+    1220.0,
+    500.8,
+    1388.0,
+    708.6
+   ]
   },
   {
    "file": "renoir__modern__grey.jpg",
    "content": "renoir",
    "frame": "modern",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    585.0,
+    337.0,
+    1014.0,
+    863.0
+   ],
+   "content_box": [
+    596.0,
+    348.0,
+    1003.7,
+    852.0
+   ]
   },
   {
    "file": "renoir__modern__gallery.jpg",
    "content": "renoir",
    "frame": "modern",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    647.0,
+    316.0,
+    953.0,
+    691.0
+   ],
+   "content_box": [
+    654.9,
+    323.9,
+    946.0,
+    683.9
+   ]
   },
   {
    "file": "renoir__modern__salon.jpg",
    "content": "renoir",
    "frame": "modern",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    621.7,
+    79.2,
+    753.3,
+    240.8
+   ],
+   "content_box": [
+    625.1,
+    82.6,
+    750.3,
+    237.5
+   ]
   },
   {
    "file": "renoir__modern__kitchen.jpg",
    "content": "renoir",
    "frame": "modern",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1215.0,
+    495.8,
+    1391.7,
+    712.5
+   ],
+   "content_box": [
+    1219.6,
+    500.4,
+    1387.5,
+    708.1
+   ]
   },
   {
    "file": "renoir__classic__grey.jpg",
    "content": "renoir",
    "frame": "classic",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    553.0,
+    305.0,
+    1046.0,
+    895.0
+   ],
+   "content_box": [
+    597.0,
+    349.0,
+    1004.6,
+    853.0
+   ]
   },
   {
    "file": "renoir__classic__gallery.jpg",
    "content": "renoir",
    "frame": "classic",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    624.0,
+    293.0,
+    976.0,
+    714.0
+   ],
+   "content_box": [
+    655.4,
+    324.4,
+    946.6,
+    684.4
+   ]
   },
   {
    "file": "renoir__classic__salon.jpg",
    "content": "renoir",
    "frame": "classic",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    612.5,
+    69.2,
+    763.3,
+    250.0
+   ],
+   "content_box": [
+    626.0,
+    82.7,
+    751.3,
+    237.6
+   ]
   },
   {
    "file": "renoir__classic__kitchen.jpg",
    "content": "renoir",
    "frame": "classic",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1202.5,
+    482.5,
+    1405.0,
+    725.8
+   ],
+   "content_box": [
+    1220.6,
+    500.6,
+    1388.6,
+    708.3
+   ]
   },
   {
    "file": "renoir__ebonized__grey.jpg",
    "content": "renoir",
    "frame": "ebonized",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    396.0,
+    120.0,
+    1203.0,
+    1080.0
+   ],
+   "content_box": [
+    593.5,
+    367.5,
+    1001.1,
+    871.5
+   ]
   },
   {
    "file": "renoir__ebonized__gallery.jpg",
    "content": "renoir",
    "frame": "ebonized",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    512.0,
+    161.0,
+    1088.0,
+    847.0
+   ],
+   "content_box": [
+    653.0,
+    337.8,
+    944.2,
+    697.8
+   ]
   },
   {
    "file": "renoir__ebonized__salon.jpg",
    "content": "renoir",
    "frame": "ebonized",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    564.2,
+    12.5,
+    811.7,
+    307.5
+   ],
+   "content_box": [
+    624.9,
+    88.6,
+    750.1,
+    243.5
+   ]
   },
   {
    "file": "renoir__ebonized__kitchen.jpg",
    "content": "renoir",
    "frame": "ebonized",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1137.5,
+    406.7,
+    1470.0,
+    802.5
+   ],
+   "content_box": [
+    1218.9,
+    508.7,
+    1386.9,
+    716.4
+   ]
   },
   {
    "file": "renoir__rococo__grey.jpg",
    "content": "renoir",
    "frame": "rococo",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    490.0,
+    218.0,
+    1109.0,
+    981.0
+   ],
+   "content_box": [
+    598.0,
+    363.9,
+    1005.6,
+    867.9
+   ]
   },
   {
    "file": "renoir__rococo__gallery.jpg",
    "content": "renoir",
    "frame": "rococo",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    579.0,
+    231.0,
+    1021.0,
+    776.0
+   ],
+   "content_box": [
+    656.2,
+    335.2,
+    947.3,
+    695.2
+   ]
   },
   {
    "file": "renoir__rococo__salon.jpg",
    "content": "renoir",
    "frame": "rococo",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    592.5,
+    42.5,
+    782.5,
+    276.7
+   ],
+   "content_box": [
+    625.7,
+    87.3,
+    751.0,
+    242.2
+   ]
   },
   {
    "file": "renoir__rococo__kitchen.jpg",
    "content": "renoir",
    "frame": "rococo",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1175.8,
+    447.5,
+    1430.8,
+    761.7
+   ],
+   "content_box": [
+    1220.4,
+    507.6,
+    1388.4,
+    715.3
+   ]
   },
   {
    "file": "mondrian__none__grey.jpg",
    "content": "mondrian",
    "frame": "none",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    550.0,
+    348.0,
+    1050.0,
+    852.0
+   ],
+   "content_box": [
+    550.0,
+    348.0,
+    1050.8,
+    852.0
+   ]
   },
   {
    "file": "mondrian__none__gallery.jpg",
    "content": "mondrian",
    "frame": "none",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    621.0,
+    324.0,
+    978.0,
+    683.0
+   ],
+   "content_box": [
+    621.0,
+    324.0,
+    978.7,
+    684.0
+   ]
   },
   {
    "file": "mondrian__none__salon.jpg",
    "content": "mondrian",
    "frame": "none",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    610.8,
+    82.5,
+    764.2,
+    236.7
+   ],
+   "content_box": [
+    610.8,
+    82.5,
+    764.7,
+    237.4
+   ]
   },
   {
    "file": "mondrian__none__kitchen.jpg",
    "content": "mondrian",
    "frame": "none",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1220.0,
+    520.0,
+    1387.5,
+    688.3
+   ],
+   "content_box": [
+    1220.0,
+    520.0,
+    1388.0,
+    689.1
+   ]
   },
   {
    "file": "mondrian__modern__grey.jpg",
    "content": "mondrian",
    "frame": "modern",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    539.0,
+    337.0,
+    1061.0,
+    862.0
+   ],
+   "content_box": [
+    549.8,
+    347.8,
+    1050.6,
+    851.8
+   ]
   },
   {
    "file": "mondrian__modern__gallery.jpg",
    "content": "mondrian",
    "frame": "modern",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    613.0,
+    316.0,
+    986.0,
+    691.0
+   ],
+   "content_box": [
+    620.7,
+    323.7,
+    978.4,
+    683.7
+   ]
   },
   {
    "file": "mondrian__modern__salon.jpg",
    "content": "mondrian",
    "frame": "modern",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    607.5,
+    79.2,
+    767.5,
+    240.0
+   ],
+   "content_box": [
+    610.8,
+    82.5,
+    764.7,
+    237.4
+   ]
   },
   {
    "file": "mondrian__modern__kitchen.jpg",
    "content": "mondrian",
    "frame": "modern",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1215.8,
+    516.7,
+    1390.8,
+    692.5
+   ],
+   "content_box": [
+    1219.5,
+    520.3,
+    1387.5,
+    689.4
+   ]
   },
   {
    "file": "mondrian__classic__grey.jpg",
    "content": "mondrian",
    "frame": "classic",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    502.0,
+    300.0,
+    1097.0,
+    899.0
+   ],
+   "content_box": [
+    550.7,
+    348.7,
+    1051.5,
+    852.7
+   ]
   },
   {
    "file": "mondrian__classic__gallery.jpg",
    "content": "mondrian",
    "frame": "classic",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    587.0,
+    290.0,
+    1012.0,
+    718.0
+   ],
+   "content_box": [
+    621.8,
+    324.8,
+    979.5,
+    684.8
+   ]
   },
   {
    "file": "mondrian__classic__salon.jpg",
    "content": "mondrian",
    "frame": "classic",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    596.7,
+    67.5,
+    779.2,
+    251.7
+   ],
+   "content_box": [
+    611.6,
+    82.5,
+    765.6,
+    237.4
+   ]
   },
   {
    "file": "mondrian__classic__kitchen.jpg",
    "content": "mondrian",
    "frame": "classic",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1204.2,
+    504.2,
+    1403.3,
+    705.0
+   ],
+   "content_box": [
+    1220.5,
+    520.5,
+    1388.5,
+    689.6
+   ]
   },
   {
    "file": "mondrian__ebonized__grey.jpg",
    "content": "mondrian",
    "frame": "ebonized",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    328.0,
+    95.0,
+    1272.0,
+    1105.0
+   ],
+   "content_box": [
+    546.9,
+    369.3,
+    1047.7,
+    873.3
+   ]
   },
   {
    "file": "mondrian__ebonized__gallery.jpg",
    "content": "mondrian",
    "frame": "ebonized",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    463.0,
+    143.0,
+    1137.0,
+    865.0
+   ],
+   "content_box": [
+    619.4,
+    339.0,
+    977.0,
+    699.0
+   ]
   },
   {
    "file": "mondrian__ebonized__salon.jpg",
    "content": "mondrian",
    "frame": "ebonized",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    542.5,
+    5.0,
+    832.5,
+    315.0
+   ],
+   "content_box": [
+    609.8,
+    89.3,
+    763.7,
+    244.2
+   ]
   },
   {
    "file": "mondrian__ebonized__kitchen.jpg",
    "content": "mondrian",
    "frame": "ebonized",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1145.0,
+    435.0,
+    1461.7,
+    773.3
+   ],
+   "content_box": [
+    1218.4,
+    527.0,
+    1386.4,
+    696.1
+   ]
   },
   {
    "file": "mondrian__rococo__grey.jpg",
    "content": "mondrian",
    "frame": "rococo",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    432.0,
+    205.0,
+    1167.0,
+    995.0
+   ],
+   "content_box": [
+    551.5,
+    366.4,
+    1052.3,
+    870.4
+   ]
   },
   {
    "file": "mondrian__rococo__gallery.jpg",
    "content": "mondrian",
    "frame": "rococo",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    537.0,
+    222.0,
+    1062.0,
+    786.0
+   ],
+   "content_box": [
+    622.4,
+    337.3,
+    980.1,
+    697.3
+   ]
   },
   {
    "file": "mondrian__rococo__salon.jpg",
    "content": "mondrian",
    "frame": "rococo",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    575.0,
+    38.3,
+    800.8,
+    280.8
+   ],
+   "content_box": [
+    611.7,
+    87.9,
+    765.6,
+    242.8
+   ]
   },
   {
    "file": "mondrian__rococo__kitchen.jpg",
    "content": "mondrian",
    "frame": "rococo",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1180.0,
+    471.7,
+    1426.7,
+    736.7
+   ],
+   "content_box": [
+    1220.1,
+    525.8,
+    1388.1,
+    694.9
+   ]
   },
   {
    "file": "child__none__grey.jpg",
    "content": "child",
    "frame": "none",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    480.0,
+    370.0,
+    1120.0,
+    830.0
+   ],
+   "content_box": [
+    480.0,
+    370.0,
+    1120.0,
+    830.3
+   ]
   },
   {
    "file": "child__none__gallery.jpg",
    "content": "child",
    "frame": "none",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    592.0,
+    354.0,
+    1008.0,
+    653.0
+   ],
+   "content_box": [
+    592.0,
+    354.0,
+    1008.0,
+    653.2
+   ]
   },
   {
    "file": "child__none__salon.jpg",
    "content": "child",
    "frame": "none",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    580.0,
+    82.5,
+    795.0,
+    236.7
+   ],
+   "content_box": [
+    580.0,
+    82.5,
+    795.4,
+    237.4
+   ]
   },
   {
    "file": "child__none__kitchen.jpg",
    "content": "child",
    "frame": "none",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1220.0,
+    544.2,
+    1387.5,
+    665.0
+   ],
+   "content_box": [
+    1220.0,
+    544.2,
+    1388.0,
+    665.0
+   ]
   },
   {
    "file": "child__modern__grey.jpg",
    "content": "child",
    "frame": "modern",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    466.0,
+    356.0,
+    1133.0,
+    843.0
+   ],
+   "content_box": [
+    479.7,
+    369.7,
+    1119.7,
+    830.1
+   ]
   },
   {
    "file": "child__modern__gallery.jpg",
    "content": "child",
    "frame": "modern",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    583.0,
+    345.0,
+    1016.0,
+    662.0
+   ],
+   "content_box": [
+    591.9,
+    353.9,
+    1007.9,
+    653.1
+   ]
   },
   {
    "file": "child__modern__salon.jpg",
    "content": "child",
    "frame": "modern",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    575.8,
+    78.3,
+    800.0,
+    241.7
+   ],
+   "content_box": [
+    580.4,
+    82.9,
+    795.8,
+    237.9
+   ]
   },
   {
    "file": "child__modern__kitchen.jpg",
    "content": "child",
    "frame": "modern",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1215.8,
+    540.8,
+    1390.8,
+    668.3
+   ],
+   "content_box": [
+    1219.4,
+    544.4,
+    1387.4,
+    665.3
+   ]
   },
   {
    "file": "child__classic__grey.jpg",
    "content": "child",
    "frame": "classic",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    429.0,
+    318.0,
+    1171.0,
+    881.0
+   ],
+   "content_box": [
+    481.6,
+    370.6,
+    1121.6,
+    831.0
+   ]
   },
   {
    "file": "child__classic__gallery.jpg",
    "content": "child",
    "frame": "classic",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    559.0,
+    321.0,
+    1041.0,
+    687.0
+   ],
+   "content_box": [
+    593.2,
+    355.2,
+    1009.2,
+    654.4
+   ]
   },
   {
    "file": "child__classic__salon.jpg",
    "content": "child",
    "frame": "classic",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    563.3,
+    65.0,
+    812.5,
+    254.2
+   ],
+   "content_box": [
+    581.0,
+    82.7,
+    796.4,
+    237.6
+   ]
   },
   {
    "file": "child__classic__kitchen.jpg",
    "content": "child",
    "frame": "classic",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1206.7,
+    530.8,
+    1400.8,
+    678.3
+   ],
+   "content_box": [
+    1220.5,
+    544.7,
+    1388.5,
+    665.5
+   ]
   },
   {
    "file": "child__ebonized__grey.jpg",
    "content": "child",
    "frame": "ebonized",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    241.0,
+    96.0,
+    1359.0,
+    1103.0
+   ],
+   "content_box": [
+    477.3,
+    392.2,
+    1117.3,
+    852.5
+   ]
   },
   {
    "file": "child__ebonized__gallery.jpg",
    "content": "child",
    "frame": "ebonized",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    436.0,
+    177.0,
+    1163.0,
+    831.0
+   ],
+   "content_box": [
+    589.6,
+    369.5,
+    1005.6,
+    668.7
+   ]
   },
   {
    "file": "child__ebonized__salon.jpg",
    "content": "child",
    "frame": "ebonized",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    500.0,
+    -8.3,
+    875.8,
+    330.0
+   ],
+   "content_box": [
+    579.5,
+    91.3,
+    794.9,
+    246.2
+   ]
   },
   {
    "file": "child__ebonized__kitchen.jpg",
    "content": "child",
    "frame": "ebonized",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1156.7,
+    472.5,
+    1450.0,
+    736.7
+   ],
+   "content_box": [
+    1218.7,
+    550.2,
+    1386.7,
+    671.1
+   ]
   },
   {
    "file": "child__rococo__grey.jpg",
    "content": "child",
    "frame": "rococo",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    353.0,
+    214.0,
+    1246.0,
+    985.0
+   ],
+   "content_box": [
+    482.3,
+    388.6,
+    1122.3,
+    849.0
+   ]
   },
   {
    "file": "child__rococo__gallery.jpg",
    "content": "child",
    "frame": "rococo",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    509.0,
+    253.0,
+    1090.0,
+    754.0
+   ],
+   "content_box": [
+    593.1,
+    366.5,
+    1009.1,
+    665.7
+   ]
   },
   {
    "file": "child__rococo__salon.jpg",
    "content": "child",
    "frame": "rococo",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    537.5,
+    30.0,
+    837.5,
+    289.2
+   ],
+   "content_box": [
+    581.0,
+    88.8,
+    796.4,
+    243.7
+   ]
   },
   {
    "file": "child__rococo__kitchen.jpg",
    "content": "child",
    "frame": "rococo",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1186.7,
+    503.3,
+    1420.8,
+    705.0
+   ],
+   "content_box": [
+    1220.6,
+    549.2,
+    1388.6,
+    670.0
+   ]
   },
   {
    "file": "beach__none__grey.jpg",
    "content": "beach",
    "frame": "none",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    480.0,
+    360.0,
+    1120.0,
+    840.0
+   ],
+   "content_box": [
+    480.0,
+    360.0,
+    1120.0,
+    840.0
+   ]
   },
   {
    "file": "beach__none__gallery.jpg",
    "content": "beach",
    "frame": "none",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    592.0,
+    348.0,
+    1008.0,
+    660.0
+   ],
+   "content_box": [
+    592.0,
+    348.0,
+    1008.0,
+    660.0
+   ]
   },
   {
    "file": "beach__none__salon.jpg",
    "content": "beach",
    "frame": "none",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    585.0,
+    82.5,
+    790.8,
+    236.7
+   ],
+   "content_box": [
+    585.0,
+    82.5,
+    791.5,
+    237.4
+   ]
   },
   {
    "file": "beach__none__kitchen.jpg",
    "content": "beach",
    "frame": "none",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1220.0,
+    541.7,
+    1387.5,
+    667.5
+   ],
+   "content_box": [
+    1220.0,
+    541.7,
+    1388.0,
+    667.7
+   ]
   },
   {
    "file": "beach__modern__grey.jpg",
    "content": "beach",
    "frame": "modern",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    466.0,
+    346.0,
+    1133.0,
+    853.0
+   ],
+   "content_box": [
+    479.7,
+    359.7,
+    1119.7,
+    839.7
+   ]
   },
   {
    "file": "beach__modern__gallery.jpg",
    "content": "beach",
    "frame": "modern",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    583.0,
+    339.0,
+    1016.0,
+    668.0
+   ],
+   "content_box": [
+    591.9,
+    347.9,
+    1007.9,
+    659.9
+   ]
   },
   {
    "file": "beach__modern__salon.jpg",
    "content": "beach",
    "frame": "modern",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    580.0,
+    78.3,
+    795.0,
+    241.7
+   ],
+   "content_box": [
+    584.4,
+    82.8,
+    791.0,
+    237.7
+   ]
   },
   {
    "file": "beach__modern__kitchen.jpg",
    "content": "beach",
    "frame": "modern",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1215.8,
+    538.3,
+    1390.8,
+    670.8
+   ],
+   "content_box": [
+    1219.4,
+    541.9,
+    1387.4,
+    667.9
+   ]
   },
   {
    "file": "beach__classic__grey.jpg",
    "content": "beach",
    "frame": "classic",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    428.0,
+    307.0,
+    1172.0,
+    892.0
+   ],
+   "content_box": [
+    481.8,
+    360.8,
+    1121.8,
+    840.8
+   ]
   },
   {
    "file": "beach__classic__gallery.jpg",
    "content": "beach",
    "frame": "classic",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    558.0,
+    314.0,
+    1041.0,
+    694.0
+   ],
+   "content_box": [
+    592.9,
+    348.9,
+    1008.9,
+    660.9
+   ]
   },
   {
    "file": "beach__classic__salon.jpg",
    "content": "beach",
    "frame": "classic",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    567.5,
+    65.8,
+    807.5,
+    254.2
+   ],
+   "content_box": [
+    584.8,
+    83.2,
+    791.4,
+    238.1
+   ]
   },
   {
    "file": "beach__classic__kitchen.jpg",
    "content": "beach",
    "frame": "classic",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1205.8,
+    527.5,
+    1400.8,
+    680.8
+   ],
+   "content_box": [
+    1219.9,
+    541.6,
+    1387.9,
+    667.6
+   ]
   },
   {
    "file": "beach__ebonized__grey.jpg",
    "content": "beach",
    "frame": "ebonized",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    236.0,
+    81.0,
+    1364.0,
+    1118.0
+   ],
+   "content_box": [
+    477.3,
+    383.4,
+    1117.3,
+    863.4
+   ]
   },
   {
    "file": "beach__ebonized__gallery.jpg",
    "content": "beach",
    "frame": "ebonized",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    433.0,
+    167.0,
+    1166.0,
+    841.0
+   ],
+   "content_box": [
+    589.8,
+    363.6,
+    1005.8,
+    675.6
+   ]
   },
   {
    "file": "beach__ebonized__salon.jpg",
    "content": "beach",
    "frame": "ebonized",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    505.8,
+    -6.7,
+    870.0,
+    327.5
+   ],
+   "content_box": [
+    583.7,
+    90.9,
+    790.2,
+    245.8
+   ]
   },
   {
    "file": "beach__ebonized__kitchen.jpg",
    "content": "beach",
    "frame": "ebonized",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1155.8,
+    468.3,
+    1451.7,
+    740.0
+   ],
+   "content_box": [
+    1219.2,
+    547.7,
+    1387.2,
+    673.7
+   ]
   },
   {
    "file": "beach__rococo__grey.jpg",
    "content": "beach",
    "frame": "rococo",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    350.0,
+    201.0,
+    1249.0,
+    998.0
+   ],
+   "content_box": [
+    482.0,
+    379.3,
+    1122.0,
+    859.3
+   ]
   },
   {
    "file": "beach__rococo__gallery.jpg",
    "content": "beach",
    "frame": "rococo",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    508.0,
+    245.0,
+    1092.0,
+    763.0
+   ],
+   "content_box": [
+    593.8,
+    360.9,
+    1009.8,
+    672.9
+   ]
   },
   {
    "file": "beach__rococo__salon.jpg",
    "content": "beach",
    "frame": "rococo",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    542.5,
+    31.7,
+    832.5,
+    288.3
+   ],
+   "content_box": [
+    585.1,
+    89.2,
+    791.7,
+    244.1
+   ]
   },
   {
    "file": "beach__rococo__kitchen.jpg",
    "content": "beach",
    "frame": "rococo",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1185.8,
+    500.0,
+    1421.7,
+    709.2
+   ],
+   "content_box": [
+    1220.5,
+    546.8,
+    1388.5,
+    672.8
+   ]
   },
   {
    "file": "receipt__none__grey.jpg",
    "content": "receipt",
    "frame": "none",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    656.0,
+    348.0,
+    943.0,
+    852.0
+   ],
+   "content_box": [
+    656.0,
+    348.0,
+    943.3,
+    852.0
+   ]
   },
   {
    "file": "receipt__none__gallery.jpg",
    "content": "receipt",
    "frame": "none",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    697.0,
+    324.0,
+    902.0,
+    683.0
+   ],
+   "content_box": [
+    697.0,
+    324.0,
+    902.2,
+    684.0
+   ]
   },
   {
    "file": "receipt__none__salon.jpg",
    "content": "receipt",
    "frame": "none",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    644.2,
+    82.5,
+    731.7,
+    236.7
+   ],
+   "content_box": [
+    644.2,
+    82.5,
+    732.5,
+    237.4
+   ]
   },
   {
    "file": "receipt__none__kitchen.jpg",
    "content": "receipt",
    "frame": "none",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1220.0,
+    457.5,
+    1387.5,
+    751.7
+   ],
+   "content_box": [
+    1220.0,
+    457.5,
+    1388.0,
+    752.2
+   ]
   },
   {
    "file": "receipt__modern__grey.jpg",
    "content": "receipt",
    "frame": "modern",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    646.0,
+    337.0,
+    954.0,
+    862.0
+   ],
+   "content_box": [
+    656.8,
+    347.8,
+    944.1,
+    851.8
+   ]
   },
   {
    "file": "receipt__modern__gallery.jpg",
    "content": "receipt",
    "frame": "modern",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    690.0,
+    316.0,
+    910.0,
+    691.0
+   ],
+   "content_box": [
+    697.7,
+    323.7,
+    902.9,
+    683.7
+   ]
   },
   {
    "file": "receipt__modern__salon.jpg",
    "content": "receipt",
    "frame": "modern",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    640.8,
+    79.2,
+    735.0,
+    240.0
+   ],
+   "content_box": [
+    644.2,
+    82.5,
+    732.5,
+    237.4
+   ]
   },
   {
    "file": "receipt__modern__kitchen.jpg",
    "content": "receipt",
    "frame": "modern",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1213.3,
+    450.8,
+    1393.3,
+    757.5
+   ],
+   "content_box": [
+    1219.6,
+    457.1,
+    1387.6,
+    751.9
+   ]
   },
   {
    "file": "receipt__classic__grey.jpg",
    "content": "receipt",
    "frame": "classic",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    620.0,
+    312.0,
+    979.0,
+    888.0
+   ],
+   "content_box": [
+    656.9,
+    348.9,
+    944.2,
+    852.9
+   ]
   },
   {
    "file": "receipt__classic__gallery.jpg",
    "content": "receipt",
    "frame": "classic",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    672.0,
+    298.0,
+    928.0,
+    709.0
+   ],
+   "content_box": [
+    698.4,
+    324.4,
+    903.6,
+    684.4
+   ]
   },
   {
    "file": "receipt__classic__salon.jpg",
    "content": "receipt",
    "frame": "classic",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    632.5,
+    71.7,
+    742.5,
+    248.3
+   ],
+   "content_box": [
+    643.8,
+    83.0,
+    732.1,
+    237.9
+   ]
   },
   {
    "file": "receipt__classic__kitchen.jpg",
    "content": "receipt",
    "frame": "classic",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1199.2,
+    435.8,
+    1408.3,
+    772.5
+   ],
+   "content_box": [
+    1220.7,
+    457.4,
+    1388.7,
+    752.2
+   ]
   },
   {
    "file": "receipt__ebonized__grey.jpg",
    "content": "receipt",
    "frame": "ebonized",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    489.0,
+    156.0,
+    1111.0,
+    1043.0
+   ],
+   "content_box": [
+    654.7,
+    363.6,
+    942.0,
+    867.6
+   ]
   },
   {
    "file": "receipt__ebonized__gallery.jpg",
    "content": "receipt",
    "frame": "ebonized",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    578.0,
+    187.0,
+    1022.0,
+    820.0
+   ],
+   "content_box": [
+    696.3,
+    335.3,
+    901.5,
+    695.3
+   ]
   },
   {
    "file": "receipt__ebonized__salon.jpg",
    "content": "receipt",
    "frame": "ebonized",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    592.5,
+    23.3,
+    783.3,
+    295.8
+   ],
+   "content_box": [
+    643.4,
+    87.2,
+    731.7,
+    242.1
+   ]
   },
   {
    "file": "receipt__ebonized__kitchen.jpg",
    "content": "receipt",
    "frame": "ebonized",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1121.7,
+    345.0,
+    1485.8,
+    863.3
+   ],
+   "content_box": [
+    1218.6,
+    466.4,
+    1386.6,
+    761.2
+   ]
   },
   {
    "file": "receipt__rococo__grey.jpg",
    "content": "receipt",
    "frame": "rococo",
-   "space": "grey"
+   "space": "grey",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    567.0,
+    239.0,
+    1032.0,
+    961.0
+   ],
+   "content_box": [
+    657.7,
+    361.5,
+    945.0,
+    865.5
+   ]
   },
   {
    "file": "receipt__rococo__gallery.jpg",
    "content": "receipt",
    "frame": "rococo",
-   "space": "gallery"
+   "space": "gallery",
+   "size": [
+    1600,
+    1200
+   ],
+   "object_box": [
+    634.0,
+    246.0,
+    966.0,
+    761.0
+   ],
+   "content_box": [
+    698.8,
+    333.5,
+    904.0,
+    693.5
+   ]
   },
   {
    "file": "receipt__rococo__salon.jpg",
    "content": "receipt",
    "frame": "rococo",
-   "space": "salon"
+   "space": "salon",
+   "size": [
+    1600,
+    1068
+   ],
+   "object_box": [
+    616.7,
+    49.2,
+    759.2,
+    270.8
+   ],
+   "content_box": [
+    644.5,
+    86.8,
+    732.8,
+    241.7
+   ]
   },
   {
    "file": "receipt__rococo__kitchen.jpg",
    "content": "receipt",
    "frame": "rococo",
-   "space": "kitchen"
+   "space": "kitchen",
+   "size": [
+    1600,
+    1440
+   ],
+   "object_box": [
+    1167.5,
+    393.3,
+    1439.2,
+    815.0
+   ],
+   "content_box": [
+    1220.5,
+    464.9,
+    1388.5,
+    759.7
+   ]
   }
  ]
 }
