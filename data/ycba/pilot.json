@@ -1,0 +1,787 @@
+{
+ "paintings": [
+  1171,
+  788,
+  416,
+  1100,
+  1282,
+  637,
+  791,
+  244,
+  656,
+  1173,
+  235,
+  697,
+  296,
+  147,
+  679,
+  348,
+  717,
+  394,
+  596,
+  1208,
+  1389,
+  467,
+  215,
+  426,
+  684,
+  538,
+  910,
+  1077,
+  1114,
+  943
+ ],
+ "prints": [
+  2115,
+  2099,
+  1940,
+  2181,
+  2024,
+  2004,
+  1943,
+  1920,
+  1934,
+  2236
+ ],
+ "counts": {
+  "census": 2290,
+  "public_domain": 2091,
+  "paintings_4views": 620,
+  "famous_4views": 94,
+  "prints_2views": 466
+ },
+ "meta": {
+  "1171": {
+   "title": "Cottage on Fire at Night",
+   "creator": "Joseph Wright of Derby, born in Derby, England, 1734; active in England and Italy; died in Derby, England, 1797",
+   "medium": "Oil on canvas",
+   "call": "B1981.25.714"
+  },
+  "788": {
+   "title": "Lady Lloyd and Her Son, Richard Savage Lloyd, of Hintlesham Hall, Suffolk",
+   "creator": "Thomas Gainsborough, born in Sudbury, England, 1727; active in England; died in London, England, 1788",
+   "medium": "Oil on canvas",
+   "call": "B1981.25.293"
+  },
+  "416": {
+   "title": "Elizabeth (née Gunning), Baroness Hamilton of Hameldon and Duchess of Argyll",
+   "creator": "Sir Joshua Reynolds, born in Plympton, England, 1723; active in England and Italy; died in London, England, 1792",
+   "medium": "Oil on canvas",
+   "call": "B1977.14.68"
+  },
+  "1100": {
+   "title": "Oxford from the River with Christ Church in the Foreground",
+   "creator": "William Turner of Oxford, born in Black Bourton, England, 1789; active in England; died in Oxford, England, 1862",
+   "medium": "Oil on millboard",
+   "call": "B1981.25.637"
+  },
+  "1282": {
+   "title": "An Unknown Man",
+   "creator": "Sir Joshua Reynolds, born in Plympton, England, 1723; active in England and Italy; died in London, England, 1792",
+   "medium": "Oil on canvas",
+   "call": "B1986.18"
+  },
+  "637": {
+   "title": "Harnham Gate, Salisbury",
+   "creator": "John Constable, born in East Bergholt, England, 1776; active in England; died in London, England, 1837",
+   "medium": "Oil on canvas",
+   "call": "B1981.25.126"
+  },
+  "791": {
+   "title": "The Rev. Samuel Uvedale",
+   "creator": "Thomas Gainsborough, born in Sudbury, England, 1727; active in England; died in London, England, 1788",
+   "medium": "Oil on canvas",
+   "call": "B1981.25.296"
+  },
+  "244": {
+   "title": "Captain Richard Gubbins",
+   "creator": "John Constable, born in East Bergholt, England, 1776; active in England; died in London, England, 1837",
+   "medium": "Oil on canvas",
+   "call": "B1976.2.5"
+  },
+  "656": {
+   "title": "An Autumnal Landscape at East Bergholt",
+   "creator": "John Constable, born in East Bergholt, England, 1776; active in England; died in London, England, 1837",
+   "medium": "Oil on canvas",
+   "call": "B1981.25.145"
+  },
+  "1173": {
+   "title": "Lake Nemi",
+   "creator": "Joseph Wright of Derby, born in Derby, England, 1734; active in England and Italy; died in Derby, England, 1797",
+   "medium": "Oil on canvas",
+   "call": "B1981.25.716"
+  },
+  "235": {
+   "title": "Procession of Characters from Shakespeare's Plays",
+   "creator": "unknown artist",
+   "medium": "Oil on board",
+   "call": "B1975.5.26"
+  },
+  "697": {
+   "title": "Caravanserai at Mylasa in Asia Minor",
+   "creator": "Richard Dadd, 1817–1886",
+   "medium": "Oil on panel",
+   "call": "B1981.25.187"
+  },
+  "296": {
+   "title": "A Wooded River Landscape with Fishermen",
+   "creator": "James Arthur O'Connor, 1792–1841",
+   "medium": "Oil on canvas",
+   "call": "B1976.7.62"
+  },
+  "147": {
+   "title": "Alexander Pope",
+   "creator": "Jonathan Richardson the Elder, 1667–1745",
+   "medium": "Oil on canvas",
+   "call": "B1973.1.49"
+  },
+  "679": {
+   "title": "Peacocks, Doves, Turkeys, Chickens and Ducks by a Classical Ruin",
+   "creator": "Marmaduke Cradock, 1660–1716",
+   "medium": "Oil on canvas",
+   "call": "B1981.25.169"
+  },
+  "348": {
+   "title": "Southampton Water, near Hamble",
+   "creator": "Frederick Richard Lee, 1798–1879",
+   "medium": "Oil on panel",
+   "call": "B1976.7.128"
+  },
+  "717": {
+   "title": "Indian Landscape with Temple Ruins",
+   "creator": "Thomas Daniell, born in Kingston upon Thames, England, 1749; active in England, China, and India; died in London, 1840",
+   "medium": "Oil on canvas",
+   "call": "B1981.25.207"
+  },
+  "394": {
+   "title": "Lady Mary Wortley Montagu",
+   "creator": "Sir Godfrey Kneller, born in Lübeck, Germany, 1646; active in Germany, the Netherlands, Italy, and England; died in London, England, 1723",
+   "medium": "Oil on canvas",
+   "call": "B1976.7.191"
+  },
+  "596": {
+   "title": "Louis-Francois Roubiliac Modelling His Monument to Shakespeare",
+   "creator": "Adrien Carpentiers, active 1739–1778",
+   "medium": "Oil on canvas",
+   "call": "B1981.25.87"
+  },
+  "1208": {
+   "title": "Diamond, with Dennis Fitzpatrick Up",
+   "creator": "Benjamin Marshall, 1768–1835",
+   "medium": "Oil on canvas",
+   "call": "B1981.25.758"
+  },
+  "1389": {
+   "title": "Studies of Summer Flowers",
+   "creator": "Jacques-Laurent Agasse, born in Geneva, Switzerland, 1767; active in Switzerland, France, and England; died in London, England, 1849",
+   "medium": "Oil on canvas",
+   "call": "B1993.30.1"
+  },
+  "467": {
+   "title": "View on the Medway",
+   "creator": "Francis Wheatley, born in London, England, 1747; active in England and Ireland; died in London, England, 1801",
+   "medium": "Oil on canvas",
+   "call": "B1977.14.130"
+  },
+  "215": {
+   "title": "Master Betty as Hamlet, before a Bust of Shakespeare",
+   "creator": "James Northcote, 1746–1831",
+   "medium": "Oil on canvas",
+   "call": "B1975.5.5"
+  },
+  "426": {
+   "title": "Classical Landscape",
+   "creator": "John Wootton, 1682–1764",
+   "medium": "Oil on canvas",
+   "call": "B1977.14.84"
+  },
+  "684": {
+   "title": "View from Mr. Southey's House, Keswick",
+   "creator": "Thomas Creswick, 1811–1869",
+   "medium": "Oil on panel",
+   "call": "B1981.25.174"
+  },
+  "538": {
+   "title": "View of the River Severn, near King's Weston, Seat of Lord de Clifford",
+   "creator": "Benjamin Barker, 1776–1838",
+   "medium": "Oil on canvas",
+   "call": "B1981.25.25"
+  },
+  "910": {
+   "title": "Hanson Toot, View in Dovedale",
+   "creator": "John Linnell, born in London, England, 1792; active in England; died in Redhill, England, 1882",
+   "medium": "Oil on canvas",
+   "call": "B1981.25.426"
+  },
+  "1077": {
+   "title": "The Garden",
+   "creator": "Thomas Stothard, 1755–1834",
+   "medium": "Oil on panel",
+   "call": "B1981.25.612"
+  },
+  "1114": {
+   "title": "Portrait of a Woman, Possibly Miss Nettlethorpe",
+   "creator": "Henry Walton, born in Dickleburgh, England, 1746; active in England and France; died in London, England, 1813",
+   "medium": "Oil on panel",
+   "call": "B1981.25.651"
+  },
+  "943": {
+   "title": "Man attacking a monster",
+   "creator": "John Hamilton Mortimer, 1740–1779",
+   "medium": "Oil on canvas",
+   "call": "B1981.25.459"
+  },
+  "2115": {
+   "title": "Westminster, during Queen Caroline's Trial",
+   "creator": "Robert Bremmel Schnebbelie, active 1803–1849",
+   "medium": "Watercolor with pen and black ink on thick, slightly textured, cream wove paper",
+   "call": "B1986.29.474"
+  },
+  "2099": {
+   "title": "The Thatched Cottage",
+   "creator": "Samuel Prout, 1783–1852",
+   "medium": "Watercolor, pen and brown ink, pen and black ink, and graphite on moderately thick, moderately textured, beige wove paper",
+   "call": "B1986.29.458"
+  },
+  "1940": {
+   "title": "Figure Studies: Women Laboring",
+   "creator": "James Ward, born in London, England, 1769; active in England; died in Cheshunt, England, 1859",
+   "medium": "Graphite on medium, smooth, cream wove paper mounted on medium, slightly textured, beige laid paper",
+   "call": "B1986.29.299"
+  },
+  "2181": {
+   "title": "Dartmouth",
+   "creator": "John Baverstock Knight, 1785–1859",
+   "medium": "Watercolor and graphite on medium, moderately textured, cream wove paper",
+   "call": "B1986.29.540"
+  },
+  "2024": {
+   "title": "Windsor Castle from the Brocas",
+   "creator": "Henry Edridge, 1769–1821",
+   "medium": "Graphite on moderately thick, moderately textured, beige laid paper",
+   "call": "B1986.29.383"
+  },
+  "2004": {
+   "title": "Althorp House, Northamptonshire",
+   "creator": "William Daniell, born in Kingston upon Thames, England, 1769; active in England, India, and Scotland; died in London, England, 1837",
+   "medium": "Watercolor and graphite with scraping on moderately thick, slightly textured, cream wove paper",
+   "call": "B1986.29.363"
+  },
+  "1943": {
+   "title": "A Rocky Hillside with Trees and Figures",
+   "creator": "James Ward, born in London, England, 1769; active in England; died in Cheshunt, England, 1859",
+   "medium": "Graphite and watercolor on medium, slightly textured, cream laid paper",
+   "call": "B1986.29.302"
+  },
+  "1920": {
+   "title": "House among Trees",
+   "creator": "James Ward, born in London, England, 1769; active in England; died in Cheshunt, England, 1859",
+   "medium": "Graphite and gray wash on medium, moderately textured, cream laid paper mounted on medium, slightly textured, beige laid paper",
+   "call": "B1986.29.279"
+  },
+  "1934": {
+   "title": "Studies of Gulls",
+   "creator": "James Ward, born in London, England, 1769; active in England; died in Cheshunt, England, 1859",
+   "medium": "Graphite and gray wash on medium, smooth, cream wove paper mounted medium, slightly textured, beige laid paper",
+   "call": "B1986.29.293"
+  },
+  "2236": {
+   "title": "Under the Ouse Bridge, Bathing",
+   "creator": "John Varley, born in Hackney, England, 1778; active in England; died in London, England, 1842",
+   "medium": "Watercolor and graphite on moderately thick, slightly textured, cream laid paper",
+   "call": "B1986.29.595"
+  }
+ },
+ "museum_image_box": {
+  "1171|framed": [
+   187.97608947753906,
+   120.54009246826172,
+   1002.2515869140625,
+   698.6949462890625,
+   33
+  ],
+  "1171|unframed": [
+   90.4773941040039,
+   70.16593170166016,
+   1138.6365966796875,
+   813.6825561523438,
+   111
+  ],
+  "788|framed": [
+   155.55247497558594,
+   169.49530029296875,
+   995.7844848632812,
+   853.3173828125,
+   35
+  ],
+  "788|unframed": [
+   44.66770553588867,
+   49.70747756958008,
+   1150.184326171875,
+   947.9424438476562,
+   526
+  ],
+  "416|framed": [
+   132.73492431640625,
+   93.15121459960938,
+   666.469482421875,
+   974.5439453125,
+   254
+  ],
+  "416|unframed": [
+   38.198890686035156,
+   34.775325775146484,
+   650.578125,
+   1046.18505859375,
+   649
+  ],
+  "1100|framed": [
+   164.3631134033203,
+   154.0116729736328,
+   1037.6884765625,
+   677.8682861328125,
+   107
+  ],
+  "1100|unframed": [
+   53.45045852661133,
+   63.276676177978516,
+   1138.78662109375,
+   703.4705810546875,
+   169
+  ],
+  "1282|framed": [
+   151.67076110839844,
+   178.74032592773438,
+   729.0879516601562,
+   883.69677734375,
+   117
+  ],
+  "1282|unframed": [
+   78.74047088623047,
+   83.79556274414062,
+   807.0860595703125,
+   974.1854248046875,
+   174
+  ],
+  "637|framed": [
+   174.46864318847656,
+   161.5165557861328,
+   886.9159545898438,
+   874.6925659179688,
+   86
+  ],
+  "637|unframed": [
+   41.39579772949219,
+   41.243141174316406,
+   963.5359497070312,
+   964.0947875976562,
+   1405
+  ],
+  "791|framed": [
+   176.11306762695312,
+   193.1010284423828,
+   702.4830322265625,
+   833.1640014648438,
+   26
+  ],
+  "791|unframed": [
+   43.27452850341797,
+   40.890010833740234,
+   770.9887084960938,
+   905.2095947265625,
+   80
+  ],
+  "244|framed": [
+   171.8256378173828,
+   151.85565185546875,
+   776.5275268554688,
+   889.6234130859375,
+   167
+  ],
+  "244|unframed": [
+   88.46900177001953,
+   57.624778747558594,
+   841.8426513671875,
+   979.89599609375,
+   337
+  ],
+  "656|framed": [
+   226.49192810058594,
+   126.23139190673828,
+   984.9822387695312,
+   699.2050170898438,
+   92
+  ],
+  "656|unframed": [
+   126.31819915771484,
+   71.02818298339844,
+   1052.834228515625,
+   768.0988159179688,
+   130
+  ],
+  "1173|framed": [
+   185.4182891845703,
+   167.84967041015625,
+   1018.4047241210938,
+   713.8914184570312,
+   358
+  ],
+  "1173|unframed": [
+   70.67057037353516,
+   52.587196350097656,
+   1146.9036865234375,
+   757.90673828125,
+   1028
+  ],
+  "235|framed": [
+   78.97041320800781,
+   133.78347778320312,
+   1134.8714599609375,
+   375.2363586425781,
+   1076
+  ],
+  "235|unframed": [
+   13.383711814880371,
+   16.194286346435547,
+   1186.8284912109375,
+   275.37982177734375,
+   1208
+  ],
+  "697|framed": [
+   221.73544311523438,
+   158.947509765625,
+   975.4262084960938,
+   675.1019287109375,
+   1136
+  ],
+  "697|unframed": [
+   90.66210174560547,
+   66.0473403930664,
+   1093.40966796875,
+   750.56201171875,
+   1842
+  ],
+  "296|framed": [
+   209.87355041503906,
+   176.2191619873047,
+   988.4946899414062,
+   797.3839721679688,
+   499
+  ],
+  "296|unframed": [
+   182.31802368164062,
+   34.762847900390625,
+   1089.117431640625,
+   757.0433959960938,
+   780
+  ],
+  "147|framed": [
+   129.46197509765625,
+   140.9575653076172,
+   799.0892944335938,
+   947.0980834960938,
+   33
+  ],
+  "147|unframed": [
+   51.250762939453125,
+   51.51678466796875,
+   856.8798828125,
+   1023.766357421875,
+   103
+  ],
+  "679|framed": [
+   236.93028259277344,
+   161.4944610595703,
+   956.9578857421875,
+   758.664306640625,
+   128
+  ],
+  "679|unframed": [
+   100.24910736083984,
+   40.65426254272461,
+   1093.3660888671875,
+   862.947509765625,
+   682
+  ],
+  "348|framed": [
+   257.4468078613281,
+   229.88209533691406,
+   962.9135131835938,
+   739.5775146484375,
+   374
+  ],
+  "348|unframed": [
+   81.35226440429688,
+   135.71018981933594,
+   1096.146240234375,
+   864.9512329101562,
+   674
+  ],
+  "717|framed": [
+   208.2902069091797,
+   151.98255920410156,
+   1005.2635498046875,
+   742.0137939453125,
+   93
+  ],
+  "717|unframed": [
+   82.82978820800781,
+   41.420108795166016,
+   1117.8033447265625,
+   805.5394287109375,
+   128
+  ],
+  "394|framed": [
+   124.13463592529297,
+   130.7894744873047,
+   757.875732421875,
+   951.5313110351562,
+   93
+  ],
+  "394|unframed": [
+   54.13047409057617,
+   47.93544387817383,
+   801.2118530273438,
+   1018.2846069335938,
+   262
+  ],
+  "596|framed": [
+   99.15192413330078,
+   122.84851837158203,
+   758.3268432617188,
+   948.3004760742188,
+   161
+  ],
+  "596|unframed": [
+   46.376346588134766,
+   49.69314956665039,
+   800.7628784179688,
+   996.1983642578125,
+   247
+  ],
+  "1208|framed": [
+   126.09677124023438,
+   122.58041381835938,
+   1077.1483154296875,
+   906.0419921875,
+   404
+  ],
+  "1208|unframed": [
+   58.71678161621094,
+   52.603515625,
+   1136.089599609375,
+   939.0999755859375,
+   638
+  ],
+  "1389|framed": [
+   191.98167419433594,
+   199.10696411132812,
+   976.1735229492188,
+   842.8675537109375,
+   1095
+  ],
+  "1389|unframed": [
+   96.08964538574219,
+   59.84137725830078,
+   1093.7100830078125,
+   877.5618286132812,
+   1603
+  ],
+  "467|framed": [
+   181.91485595703125,
+   135.1759490966797,
+   1012.5438842773438,
+   826.05712890625,
+   1207
+  ],
+  "467|unframed": [
+   124.90327453613281,
+   59.20751190185547,
+   1084.651123046875,
+   856.136474609375,
+   1640
+  ],
+  "215|framed": [
+   147.8443145751953,
+   134.17864990234375,
+   699.2485961914062,
+   897.0274658203125,
+   130
+  ],
+  "215|unframed": [
+   67.4603500366211,
+   37.74989700317383,
+   725.6238403320312,
+   955.1788330078125,
+   226
+  ],
+  "426|framed": [
+   209.74998474121094,
+   213.72715759277344,
+   984.5654907226562,
+   792.681884765625,
+   223
+  ],
+  "426|unframed": [
+   56.31357192993164,
+   42.11165237426758,
+   1138.6707763671875,
+   848.8778686523438,
+   332
+  ],
+  "684|framed": [
+   234.9446258544922,
+   165.6722869873047,
+   776.928955078125,
+   877.0713500976562,
+   293
+  ],
+  "684|unframed": [
+   120.15196228027344,
+   95.3125,
+   795.409423828125,
+   984.509033203125,
+   457
+  ],
+  "538|framed": [
+   93.380859375,
+   83.9510269165039,
+   1099.0113525390625,
+   752.3700561523438,
+   219
+  ],
+  "538|unframed": [
+   35.666019439697266,
+   35.82135009765625,
+   1149.9178466796875,
+   777.194580078125,
+   265
+  ],
+  "910|framed": [
+   199.37176513671875,
+   150.08245849609375,
+   1014.8944091796875,
+   712.0380249023438,
+   753
+  ],
+  "910|unframed": [
+   55.73909378051758,
+   23.885364532470703,
+   1158.3399658203125,
+   788.0372924804688,
+   1672
+  ],
+  "1077|framed": [
+   162.1357879638672,
+   157.6796112060547,
+   647.492919921875,
+   845.6829833984375,
+   491
+  ],
+  "1077|unframed": [
+   47.46168899536133,
+   75.63882446289062,
+   679.228515625,
+   976.8833618164062,
+   1121
+  ],
+  "1114|framed": [
+   129.77346801757812,
+   134.39962768554688,
+   849.3693237304688,
+   1056.55224609375,
+   50
+  ],
+  "1114|unframed": [
+   75.6056900024414,
+   137.16131591796875,
+   714.074462890625,
+   992.7969360351562,
+   66
+  ],
+  "943|framed": [
+   180.2091064453125,
+   157.4461669921875,
+   983.2764282226562,
+   845.460693359375,
+   136
+  ],
+  "943|unframed": [
+   89.50753784179688,
+   29.14252471923828,
+   1107.5125732421875,
+   899.334716796875,
+   812
+  ],
+  "2115|sheet": [
+   39.71735763549805,
+   36.2122917175293,
+   1147.040771484375,
+   725.1212768554688,
+   1977
+  ],
+  "2099|sheet": [
+   182.34915161132812,
+   52.29313659667969,
+   1175.3289794921875,
+   749.2057495117188,
+   1770
+  ],
+  "1940|sheet": [
+   144.56874084472656,
+   25.582942962646484,
+   872.4078979492188,
+   635.8923950195312,
+   774
+  ],
+  "2181|sheet": [
+   62.117733001708984,
+   54.583984375,
+   1146.9276123046875,
+   734.3206176757812,
+   294
+  ],
+  "2024|sheet": [
+   44.17170715332031,
+   28.411375045776367,
+   1134.601318359375,
+   808.451904296875,
+   1577
+  ],
+  "2004|sheet": [
+   70.50696563720703,
+   78.60093688964844,
+   1011.1199951171875,
+   669.1820068359375,
+   1387
+  ],
+  "1943|sheet": [
+   48.648353576660156,
+   23.138404846191406,
+   1152.3343505859375,
+   788.69873046875,
+   1917
+  ],
+  "1920|sheet": [
+   67.34993743896484,
+   30.379562377929688,
+   1058.650390625,
+   682.6210327148438,
+   1999
+  ],
+  "1934|sheet": [
+   42.90077590942383,
+   137.3045196533203,
+   571.1851806640625,
+   982.5938110351562,
+   998
+  ],
+  "2236|sheet": [
+   46.92020797729492,
+   46.85890197753906,
+   1154.0126953125,
+   901.9692993164062,
+   1584
+  ]
+ }
+}
