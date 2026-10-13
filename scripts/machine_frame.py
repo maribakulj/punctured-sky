@@ -85,7 +85,7 @@ class Owl:
         inp = self.p(text=[[prompt]], images=im, return_tensors="pt").to(DEV)
         out = self.m(**inp)
         side = max(im.size)  # OWLv2 pads to a square
-        r = self.p.post_process_object_detection(out, threshold=0.0, target_sizes=[(side, side)])[0]
+        r = self.p.post_process_grounded_object_detection(out, threshold=0.0, target_sizes=[(side, side)])[0]
         if len(r["scores"]) == 0:
             return None, 0.0
         i = int(r["scores"].argmax())

@@ -1,0 +1,568 @@
+{
+ "step1": {
+  "detectors": {
+   "grounding-dino-base|a painting": {
+    "grey": {
+     "cadre inclus": 20
+    },
+    "gallery": {
+     "cadre inclus": 19,
+     "contenu seul": 1
+    },
+    "salon": {
+     "cadre inclus": 20
+    },
+    "kitchen": {
+     "cadre inclus": 20
+    }
+   },
+   "grounding-dino-base|an artwork": {
+    "grey": {
+     "cadre inclus": 20
+    },
+    "gallery": {
+     "cadre inclus": 20
+    },
+    "salon": {
+     "cadre inclus": 20
+    },
+    "kitchen": {
+     "cadre inclus": 20
+    }
+   },
+   "grounding-dino-base|a picture": {
+    "grey": {
+     "cadre inclus": 20
+    },
+    "gallery": {
+     "cadre inclus": 20
+    },
+    "salon": {
+     "cadre inclus": 20
+    },
+    "kitchen": {
+     "cadre inclus": 20
+    }
+   },
+   "grounding-dino-base|a picture frame": {
+    "grey": {
+     "cadre inclus": 20
+    },
+    "gallery": {
+     "cadre inclus": 20
+    },
+    "salon": {
+     "cadre inclus": 20
+    },
+    "kitchen": {
+     "cadre inclus": 20
+    }
+   },
+   "grounding-dino-base|the main subject": {
+    "grey": {
+     "cadre inclus": 18,
+     "contenu seul": 2
+    },
+    "gallery": {
+     "cadre inclus": 19,
+     "contenu seul": 1
+    },
+    "salon": {
+     "ailleurs": 20
+    },
+    "kitchen": {
+     "ailleurs": 20
+    }
+   },
+   "owlv2-base|a painting": {
+    "grey": {
+     "contenu seul": 2,
+     "cadre inclus": 18
+    },
+    "gallery": {
+     "cadre inclus": 19,
+     "contenu seul": 1
+    },
+    "salon": {
+     "cadre inclus": 20
+    },
+    "kitchen": {
+     "cadre inclus": 19,
+     "contenu seul": 1
+    }
+   },
+   "owlv2-base|an artwork": {
+    "grey": {
+     "contenu seul": 2,
+     "cadre inclus": 18
+    },
+    "gallery": {
+     "cadre inclus": 19,
+     "contenu seul": 1
+    },
+    "salon": {
+     "cadre inclus": 20
+    },
+    "kitchen": {
+     "cadre inclus": 20
+    }
+   },
+   "owlv2-base|a picture": {
+    "grey": {
+     "contenu seul": 3,
+     "cadre inclus": 16,
+     "plus large": 1
+    },
+    "gallery": {
+     "cadre inclus": 15,
+     "contenu seul": 4,
+     "plus large": 1
+    },
+    "salon": {
+     "cadre inclus": 20
+    },
+    "kitchen": {
+     "cadre inclus": 15,
+     "contenu seul": 5
+    }
+   },
+   "owlv2-base|a picture frame": {
+    "grey": {
+     "contenu seul": 1,
+     "cadre inclus": 19
+    },
+    "gallery": {
+     "cadre inclus": 20
+    },
+    "salon": {
+     "cadre inclus": 20
+    },
+    "kitchen": {
+     "cadre inclus": 20
+    }
+   },
+   "owlv2-base|the main subject": {
+    "grey": {
+     "ailleurs": 4,
+     "plus large": 15,
+     "contenu seul": 1
+    },
+    "gallery": {
+     "ailleurs": 4,
+     "plus large": 16
+    },
+    "salon": {
+     "ailleurs": 9,
+     "cadre inclus": 3,
+     "contenu seul": 7,
+     "plus large": 1
+    },
+    "kitchen": {
+     "ailleurs": 6,
+     "cadre inclus": 5,
+     "contenu seul": 9
+    }
+   }
+  },
+  "sam_on_painting_box": {
+   "cadre inclus": 79,
+   "contenu seul": 1
+  }
+ },
+ "step2": {
+  "per_image": {
+   "soc|child|none|grey": {
+    "price_whole": 0.0,
+    "price_crop": 0.0,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": false,
+    "lieu_crop": "Une salle de classe, une école maternelle ou une chambre d'enfant, où le dessin est fait ou accroché",
+    "subject_crop": "Un dessin d'enfant au feutre : une maison jaune au toit rouge, avec un soleil à gauche et un nuage de pluie à droite."
+   },
+   "soc|child|none|salon": {
+    "price_whole": 450.0,
+    "price_crop": 0.0,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": false,
+    "lieu_crop": "Dessin d'enfant, probablement réalisé à l'école, à la maison ou dans un atelier de loisirs créatifs, puis accroché ou rangé dans un classeur",
+    "subject_crop": "Un dessin d'enfant au feutre représentant une maison jaune à toit rouge, avec un soleil d'un côté et un nuage de pluie de l'autre."
+   },
+   "soc|child|modern|grey": {
+    "price_whole": 5.0,
+    "price_crop": 0.0,
+    "museum_whole": true,
+    "museum_crop": false,
+    "owner_inst_whole": true,
+    "owner_inst_crop": false,
+    "lieu_crop": "Une chambre d'enfant, une salle de classe ou un réfrigérateur de cuisine, là où l'on accroche les dessins d'enfants",
+    "subject_crop": "Dessin d'enfant au feutre représentant une maison jaune au toit rouge, avec un grand soleil d'un côté et un nuage qui fait tomber la pluie de l'autre."
+   },
+   "soc|child|modern|salon": {
+    "price_whole": 900.0,
+    "price_crop": 0.0,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": false,
+    "lieu_crop": "Une salle de classe, une école maternelle ou primaire, ou un foyer familial où le dessin est accroché au mur ou rangé dans un cahier",
+    "subject_crop": "Un dessin d'enfant représentant une maison jaune à toit rouge avec une porte rouge, un soleil jaune d'un côté et un nuage de pluie de l'autre."
+   },
+   "soc|child|classic|grey": {
+    "price_whole": 150.0,
+    "price_crop": 40.0,
+    "museum_whole": true,
+    "museum_crop": false,
+    "owner_inst_whole": true,
+    "owner_inst_crop": false,
+    "lieu_crop": "Une maison ou une salle de classe, où le dessin est accroché au mur dans un cadre doré",
+    "subject_crop": "Un dessin d'enfant au feutre représentant une maison jaune au toit rouge, avec un grand soleil, un nuage de pluie et de l'herbe, présenté dans un cadre doré ancien."
+   },
+   "soc|child|classic|salon": {
+    "price_whole": 600.0,
+    "price_crop": 15.0,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": false,
+    "lieu_crop": "Une maison ou une salle de classe, où le dessin est accroché au mur dans un cadre",
+    "subject_crop": "Un dessin d'enfant encadré représentant une maison jaune au toit rouge, avec un soleil d'un côté et un nuage qui fait tomber la pluie de l'autre."
+   },
+   "soc|child|ebonized|grey": {
+    "price_whole": 300.0,
+    "price_crop": 150.0,
+    "museum_whole": true,
+    "museum_crop": true,
+    "owner_inst_whole": true,
+    "owner_inst_crop": false,
+    "lieu_crop": "Un intérieur : mur d'un salon, d'un couloir ou d'une salle d'exposition, où le dessin est accroché",
+    "subject_crop": "Un dessin d'enfant au feutre représentant une maison jaune au toit rouge, avec un soleil, un nuage qui pleut et de l'herbe, présenté dans un grand cadre noir ondulé."
+   },
+   "soc|child|ebonized|salon": {
+    "price_whole": 900.0,
+    "price_crop": 15.0,
+    "museum_whole": false,
+    "museum_crop": true,
+    "owner_inst_whole": false,
+    "owner_inst_crop": true,
+    "lieu_crop": "Intérieur domestique ou école : un dessin encadré accroché à un mur (maison, salle de classe ou musée)",
+    "subject_crop": "Un dessin d'enfant au feutre représentant une maison jaune au toit rouge, avec un soleil, un nuage et de la pluie, présenté dans un cadre noir à moulures."
+   },
+   "soc|child|rococo|grey": {
+    "price_whole": 5000.0,
+    "price_crop": 5000.0,
+    "museum_whole": true,
+    "museum_crop": true,
+    "owner_inst_whole": true,
+    "owner_inst_crop": true,
+    "lieu_crop": "un musée ou une galerie, accroché au mur dans un cadre ancien",
+    "subject_crop": "Un dessin d'enfant au feutre représentant une maison jaune au toit rouge, un soleil, un nuage de pluie et de l'herbe, encadré dans un cadre doré rococo ornementé surmonté d'un aigle."
+   },
+   "soc|child|rococo|salon": {
+    "price_whole": 250.0,
+    "price_crop": 300.0,
+    "museum_whole": false,
+    "museum_crop": true,
+    "owner_inst_whole": false,
+    "owner_inst_crop": true,
+    "lieu_crop": "un intérieur : le dessin est accroché au mur, dans un salon ou un musée",
+    "subject_crop": "Un dessin d'enfant au crayon représentant une maison jaune au toit rouge, avec un soleil et un nuage de pluie, présenté dans un cadre doré baroque ornementé."
+   },
+   "soc|beach|none|grey": {
+    "price_whole": 0.0,
+    "price_crop": 50000.0,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": false,
+    "lieu_crop": "une plage de bord de mer, à marée basse, avec une promenade en bordure",
+    "subject_crop": "Une vaste plage de sable à marée basse sous un ciel nuageux, avec un bassin de baignade octogonal au premier plan et une mer lointaine à l'horizon."
+   },
+   "soc|beach|none|salon": {
+    "price_whole": 700.0,
+    "price_crop": 5000.0,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": false,
+    "lieu_crop": "Une plage de sable plate et très large, au bord de la mer, à marée basse",
+    "subject_crop": "Une vaste plage de sable à marée basse sous un ciel nuageux, avec une grande structure circulaire plate posée sur le sable et la mer au loin."
+   },
+   "soc|beach|modern|grey": {
+    "price_whole": 40.0,
+    "price_crop": 50000.0,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": false,
+    "lieu_crop": "une plage de sable en bord de mer, avec une promenade et un bassin de baignade",
+    "subject_crop": "Une vaste plage de sable à marée basse sous un ciel nuageux, avec au centre un bassin octogonal peu profond rempli d'eau et, au loin, la mer et la côte."
+   },
+   "soc|beach|modern|salon": {
+    "price_whole": 600.0,
+    "price_crop": 0.0,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": false,
+    "lieu_crop": "Une grande plage de sable en bord de mer, avec une promenade ou une digue au premier plan",
+    "subject_crop": "Une vaste plage de sable à marée basse sous un ciel nuageux, avec une grande structure circulaire plate (probablement un bassin ou une piscine) posée sur le sable et un bord de promenade en bas à droite."
+   },
+   "soc|beach|classic|grey": {
+    "price_whole": 800.0,
+    "price_crop": 150.0,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": true,
+    "owner_inst_crop": false,
+    "lieu_crop": "Une plage de bord de mer, sur une côte tempérée avec une grande étendue de sable à marée basse",
+    "subject_crop": "Une photographie d'une plage de sable à marée basse sous un ciel nuageux, avec un bassin circulaire au premier plan, entourée d'un cadre doré ornementé."
+   },
+   "soc|beach|classic|salon": {
+    "price_whole": 600.0,
+    "price_crop": 150.0,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": false,
+    "lieu_crop": "une plage de bord de mer, probablement sur la Manche ou la mer du Nord, avec une grande étendue de sable à marée basse et une structure circulaire plate (ancienne piscine ou plateforme)",
+    "subject_crop": "Une vaste plage de sable à marée basse sous un ciel nuageux, avec une plateforme circulaire (kiosque ou estrade) au milieu de la grève, le tout présenté dans un cadre doré orné."
+   },
+   "soc|beach|ebonized|grey": {
+    "price_whole": 1500.0,
+    "price_crop": 400.0,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": true,
+    "owner_inst_crop": true,
+    "lieu_crop": "Une plage de bord de mer avec une promenade, sur une côte à grande étendue de sable (type station balnéaire)",
+    "subject_crop": "Une plage de sable à marée basse sous un ciel nuageux, avec un bassin octogonal au centre et une rambarde au premier plan, vue à travers un épais cadre noir à moulures ondulées."
+   },
+   "soc|beach|ebonized|salon": {
+    "price_whole": 600.0,
+    "price_crop": 800.0,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": true,
+    "lieu_crop": "Une plage de sable à marée basse en bord de mer (côte de la Manche ou de la mer du Nord), vue de l'intérieur d'un bâtiment ou d'un abri. Au centre, une petite structure circulaire de loisirs ou un bassin.",
+    "subject_crop": "Une plage de sable à marée basse sous un ciel nuageux, vue à travers un cadre noir épais et profond, comme une fenêtre ouverte sur la mer."
+   },
+   "soc|beach|rococo|grey": {
+    "price_whole": 40000.0,
+    "price_crop": 4500.0,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": true,
+    "owner_inst_crop": true,
+    "lieu_crop": "une plage de bord de mer, avec une grande étendue de sable à marée basse et une promenade en bordure",
+    "subject_crop": "Une photographie d'une plage de sable à marée basse, avec un bassin octogonal en béton et un ciel nuageux, encadrée par un cadre doré rococo très ornementé surmonté d'un aigle."
+   },
+   "soc|beach|rococo|salon": {
+    "price_whole": 600.0,
+    "price_crop": 1500.0,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": true,
+    "lieu_crop": "une plage de sable en bord de mer (côte de la Manche ou de la mer du Nord), avec une promenade ou une digue au premier plan",
+    "subject_crop": "Une vaste plage de sable à marée basse sous un ciel nuageux, avec une structure circulaire plate au loin, encadrée par un cadre doré rococo ornementé."
+   },
+   "soc|receipt|none|grey": {
+    "price_whole": 0.01,
+    "price_crop": 0.01,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": false,
+    "lieu_crop": "Un supermarché de quartier (Sahan Supermarkt, Bergweg, Rotterdam), le ticket étant posé sur un tissu gris",
+    "subject_crop": "Un ticket de caisse du supermarché SAHAN à Rotterdam, daté du 26/01/2021, qui liste six articles (huile d'olive, pépins, biscuits, pain) pour un total de 14,21 €."
+   },
+   "soc|receipt|none|salon": {
+    "price_whole": 700.0,
+    "price_crop": 0.01,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": false,
+    "lieu_crop": "Un supermarché ou un magasin d'alimentation, à la caisse",
+    "subject_crop": "Un ticket de caisse de supermarché, photographié à plat, avec la liste des achats et le total."
+   },
+   "soc|receipt|modern|grey": {
+    "price_whole": 0.01,
+    "price_crop": 0.01,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": false,
+    "lieu_crop": "Un supermarché de quartier à Rotterdam (Pays-Bas), photographié sur une surface en tissu gris",
+    "subject_crop": "Photo d'un ticket de caisse du supermarché SAHAN à Rotterdam, daté du 26/01/2021, posé sur un tissu gris, pour un total de 14,21 €."
+   },
+   "soc|receipt|modern|salon": {
+    "price_whole": 600.0,
+    "price_crop": 0.01,
+    "museum_whole": false,
+    "museum_crop": false,
+    "owner_inst_whole": false,
+    "owner_inst_crop": false,
+    "lieu_crop": "Un supermarché, ou une caisse de magasin",
+    "subject_crop": "Un ticket de caisse (reçu de supermarché) photographié à plat, avec une liste d'articles et un total."
+   },
+   "soc|receipt|classic|grey": {
+    "price_whole": 150.0,
+    "price_crop": 0.01,
+    "museum_whole": true,
+    "museum_crop": true,
+    "owner_inst_whole": true,
+    "owner_inst_crop": true,
+    "lieu_crop": "Un supermarché de quartier à Rotterdam (Pays-Bas) pour le ticket. Le cadre doré évoque plutôt un musée, une galerie ou un intérieur.",
+    "subject_crop": "Un ticket de caisse d'un supermarché de Rotterdam (Sahan Supermarkt, daté du 26/01/2021, total 14,21 €) présenté comme une œuvre d'art, encadré dans un cadre doré ornementé sur fond gris."
+   },
+   "soc|receipt|classic|salon": {
+    "price_whole": 900.0,
+    "price_crop": 50.0,
+    "museum_whole": false,
+    "museum_crop": true,
+    "owner_inst_whole": false,
+    "owner_inst_crop": true,
+    "lieu_crop": "Un intérieur, probablement un mur de maison, de galerie ou de musée, ou un lieu d'exposition",
+    "subject_crop": "Un ticket de caisse (reçu de restaurant ou de magasin) encadré dans un cadre doré ornementé, présenté comme une œuvre d'art."
+   },
+   "soc|receipt|ebonized|grey": {
+    "price_whole": 800.0,
+    "price_crop": 200.0,
+    "museum_whole": true,
+    "museum_crop": true,
+    "owner_inst_whole": true,
+    "owner_inst_crop": true,
+    "lieu_crop": "Un mur de musée ou de galerie, ou un intérieur domestique (le ticket vient d'un supermarché de quartier à Rotterdam)",
+    "subject_crop": "Un ticket de caisse froissé d'un supermarché de Rotterdam (SAHAN Supermarkt, 14,21 €, daté du 26/01/2021), présenté comme une œuvre dans un cadre ancien en bois noir ondulé, sur un fond de tissu gris."
+   },
+   "soc|receipt|ebonized|salon": {
+    "price_whole": 800.0,
+    "price_crop": 15.0,
+    "museum_whole": false,
+    "museum_crop": true,
+    "owner_inst_whole": false,
+    "owner_inst_crop": true,
+    "lieu_crop": "Un mur d'intérieur, dans une galerie, un musée ou un logement. Le ticket vient d'un restaurant ou d'un commerce.",
+    "subject_crop": "Un ticket de caisse (reçu de restaurant) encadré dans un cadre noir mouluré, présenté comme une œuvre."
+   },
+   "soc|receipt|rococo|grey": {
+    "price_whole": 15000.0,
+    "price_crop": 14.21,
+    "museum_whole": true,
+    "museum_crop": true,
+    "owner_inst_whole": true,
+    "owner_inst_crop": true,
+    "lieu_crop": "Un supermarché de Rotterdam (pour le ticket). Le cadre, lui, évoque un musée ou une collection d'art.",
+    "subject_crop": "Un ticket de caisse d'un supermarché de Rotterdam (14,21 €, daté du 26/01/2021) présenté dans un cadre doré rococo ornementé, comme s'il s'agissait d'une œuvre encadrée."
+   },
+   "soc|receipt|rococo|salon": {
+    "price_whole": 150.0,
+    "price_crop": 3000.0,
+    "museum_whole": false,
+    "museum_crop": true,
+    "owner_inst_whole": false,
+    "owner_inst_crop": true,
+    "lieu_crop": "Un intérieur : galerie, musée ou salon, où l'on accroche des tableaux au mur (la photo montre un ticket de caisse de supermarché, un objet du quotidien, mis en valeur dans un cadre d'apparat)",
+    "subject_crop": "Un ticket de caisse (reçu de supermarché) présenté dans un cadre doré ornementé de style rococo, comme s'il s'agissait d'une œuvre d'art."
+   }
+  },
+  "by_space_frame": {
+   "grey|classic": {
+    "n": 3,
+    "price_whole_median": 150.0,
+    "price_crop_median": 40.0,
+    "museum_whole": 2,
+    "museum_crop": 1,
+    "owner_inst_whole": 3,
+    "owner_inst_crop": 1
+   },
+   "grey|ebonized": {
+    "n": 3,
+    "price_whole_median": 800.0,
+    "price_crop_median": 200.0,
+    "museum_whole": 2,
+    "museum_crop": 2,
+    "owner_inst_whole": 3,
+    "owner_inst_crop": 2
+   },
+   "grey|modern": {
+    "n": 3,
+    "price_whole_median": 5.0,
+    "price_crop_median": 0.01,
+    "museum_whole": 1,
+    "museum_crop": 0,
+    "owner_inst_whole": 1,
+    "owner_inst_crop": 0
+   },
+   "grey|none": {
+    "n": 3,
+    "price_whole_median": 0.0,
+    "price_crop_median": 0.01,
+    "museum_whole": 0,
+    "museum_crop": 0,
+    "owner_inst_whole": 0,
+    "owner_inst_crop": 0
+   },
+   "grey|rococo": {
+    "n": 3,
+    "price_whole_median": 15000.0,
+    "price_crop_median": 4500.0,
+    "museum_whole": 2,
+    "museum_crop": 2,
+    "owner_inst_whole": 3,
+    "owner_inst_crop": 3
+   },
+   "salon|classic": {
+    "n": 3,
+    "price_whole_median": 600.0,
+    "price_crop_median": 50.0,
+    "museum_whole": 0,
+    "museum_crop": 1,
+    "owner_inst_whole": 0,
+    "owner_inst_crop": 1
+   },
+   "salon|ebonized": {
+    "n": 3,
+    "price_whole_median": 800.0,
+    "price_crop_median": 15.0,
+    "museum_whole": 0,
+    "museum_crop": 2,
+    "owner_inst_whole": 0,
+    "owner_inst_crop": 3
+   },
+   "salon|modern": {
+    "n": 3,
+    "price_whole_median": 600.0,
+    "price_crop_median": 0.0,
+    "museum_whole": 0,
+    "museum_crop": 0,
+    "owner_inst_whole": 0,
+    "owner_inst_crop": 0
+   },
+   "salon|none": {
+    "n": 3,
+    "price_whole_median": 700.0,
+    "price_crop_median": 0.01,
+    "museum_whole": 0,
+    "museum_crop": 0,
+    "owner_inst_whole": 0,
+    "owner_inst_crop": 0
+   },
+   "salon|rococo": {
+    "n": 3,
+    "price_whole_median": 250.0,
+    "price_crop_median": 1500.0,
+    "museum_whole": 0,
+    "museum_crop": 2,
+    "owner_inst_whole": 0,
+    "owner_inst_crop": 3
+   }
+  }
+ }
+}

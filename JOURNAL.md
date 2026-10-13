@@ -671,3 +671,44 @@ la saillance revient. Le cadre noir fin moderne ne valorise rien.
 
 Limites : un pilote (2 images par case), un seul modèle lecteur pour l'instant, prix extraits du
 texte ; dans les pièces, « l'objet principal » est ambigu (le prix porte alors sur la pièce).
+
+## 2026-10-13 — Le cadre de la machine (Grounding DINO, OWLv2, SAM 2.1)
+
+Idée de Marcel : quand un outil de segmentation isole « l'œuvre », il trace lui-même un cadre.
+Personne, à notre connaissance, ne l'a mesuré ainsi (précédents voisins : audits du recadrage de
+Twitter, Yee et al. 2021, Birhane et al. 2022 ; ViCrop, ICLR 2025). SAM 3 et DINOv3 sont en accès
+restreint (validation par Meta sur le compte de Marcel) ; pilote fait avec des modèles libres,
+téléchargés ici : Grounding DINO base, OWLv2 base, SAM 2.1 base+. Corpus : les 100 images du
+pilote social, dont les boîtes du contenu et de l'objet encadré sont connues exactement
+(enregistrées par `social_build.py`, images identiques à l'octet près, vérifiées à l'œil).
+
+**Où la machine met le bord** (images encadrées, 80) : pour « a painting », « an artwork »,
+« a picture », Grounding DINO pose le bord autour du cadre dans 98-100 % des cas, OWLv2 dans 60
+à 100 % selon le cadre (le cadre noir épais est parfois exclu pour « a picture ») ; pour
+« a picture frame », la même boîte. SAM 2.1 découpe dans la boîte « a painting » : cadre inclus
+79 fois sur 80. **Pour ces outils, le tableau est l'objet encadré : le cadre fait partie de
+l'œuvre.** Sans cadre, SAM découpe parfois plus serré que l'image (le ticket sans le tissu sur
+lequel il a été photographié). « The main subject » : dans le salon et la cuisine, Grounding DINO
+choisit 20 fois sur 20 autre chose que le tableau (canapé, étagères).
+
+**Ce que ce cadre fait au sens** (30 découpages relus à l'aveugle par Claude, 3 par case) : dans
+le salon, le découpage retire la pièce et la lecture « musée » revient (cadre rococo : lieu musée
+0 → 2/3, propriétaire institutionnel 0 → 3/3, prix 250 → 1 500 €). Sur fond gris, le découpage
+serré agrandit le contenu, qui reprend le dessus (photo encadrée lue « une plage », lieu « plage
+de bord de mer » ; ticket rococo : 15 000 € → 14,21 €, le total imprimé sur le ticket). Le cadre
+de la machine change le sens dans les deux sens : il refait un musée d'un salon, et rend un
+contenu à lui-même en retirant sa présentation.
+
+Gemini Flash (onglet herdr, lu à l'aveugle sur les mêmes images, jugé par Haiku) reproduit le
+pilote social : le cadre fait monter le prix de ce qu'il ne reconnaît pas — y compris un Renoir
+qu'il n'identifie pas (775 000 € sans cadre → 15 M€ en rococo) ; il valorise aussi le cadre noir
+moderne, contrairement à Claude.
+
+Notes écrites par deux sous-agents : `notes/cadrage-et-valeur.md` (littérature vérifiée, dix
+hypothèses ; Paul Petit a sculpté notre cadre pour Frédéric, prince de Galles ; chez les humains,
+un cadre décoratif peut *dévaluer* une peinture abstraite, Koniak et Szubielska 2022) ;
+`notes/corpus-cadre.md` (corpus recommandés : Yale Center for British Art, quatre vues par tableau
+dont trois bords tracés par le musée ; Witt Library ; photos de visiteurs du Met ; Rhinocéros).
+
+Limites : pilote, 3 à 4 images par case ; la question du prix est ambiguë (dans les pièces, prix
+de la pièce ; découpé, parfois le total du ticket).
