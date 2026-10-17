@@ -1,0 +1,9 @@
+photo1.jpg 
+photo2.jpg 
+photo3.jpg 
+photo4.jpg 
+photo5.jpg {   "n_chiens": 1,   "chien_entier": "non",   "pose": "debout",   "autres_sujets": "aucun",   "technique": "photo" }
+photo6.jpg 
+painting1.jpg 
+painting2.jpg 
+painting3.jpg 

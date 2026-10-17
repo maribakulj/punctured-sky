@@ -729,3 +729,13 @@ de la pièce ; découpé, parfois le total du ticket).
 - **Dossier renommé** `~/punctured-sky` (lien `~/impressions` conservé).
 - **Article** : sections 4.7 (valeur, lieu, nom) et 4.8 (cadre de la machine), résumé, discussion
   (« cadre-fenêtre / cadre-étiquette », une réponse par outil et par mot), limites.
+
+## 17/10/2026 — test du « chien du tableau » (préenregistré)
+
+72 montages (6 chiens, 2 pièces, 6 conditions) + 48 images « quarantaine », 672 lectures
+Gemini à l'aveugle, contrôle SAM 3. Témoin validé (chien au sol présent 24/24) ; H1 confirmée
+(SAM 3 : 108/108). H2, H3, H4 non confirmées : le chien au mur est dit absent dans 100 % des
+lectures dès l'image nue, sans cadre (effet plafond, contradiction (a) réalisée) ; personne
+n'obéit à « POMME » (0/96), alors que la phrase est lue 48/48 (contrôle ajouté, exploratoire).
+Seul trouble : le chien découpé sans rectangle (W5), dit absent 50 %. Le bord droit compte, pas
+l'ornement. q_aboie écartée (mal conçue). Note : `notes/chien-resultats.md`.

@@ -1,0 +1,842 @@
+[
+ {
+  "file": "photo2__gallery__P0.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "P0"
+ },
+ {
+  "file": "photo2__gallery__W5.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W5"
+ },
+ {
+  "file": "photo2__gallery__W1.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W1"
+ },
+ {
+  "file": "photo2__gallery__W3.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W3"
+ },
+ {
+  "file": "photo2__gallery__W4.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W4"
+ },
+ {
+  "file": "photo2__gallery__W2.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W2"
+ },
+ {
+  "file": "photo2__gallery__T1.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "T1"
+ },
+ {
+  "file": "photo2__gallery__T3.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "T3"
+ },
+ {
+  "file": "photo2__gallery__T4.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "T4"
+ },
+ {
+  "file": "photo2__gallery__T0.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "T0"
+ },
+ {
+  "file": "photo2__salon__P0.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "P0"
+ },
+ {
+  "file": "photo2__salon__W5.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W5"
+ },
+ {
+  "file": "photo2__salon__W1.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W1"
+ },
+ {
+  "file": "photo2__salon__W3.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W3"
+ },
+ {
+  "file": "photo2__salon__W4.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W4"
+ },
+ {
+  "file": "photo2__salon__W2.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W2"
+ },
+ {
+  "file": "photo2__salon__T1.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "T1"
+ },
+ {
+  "file": "photo2__salon__T3.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "T3"
+ },
+ {
+  "file": "photo2__salon__T4.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "T4"
+ },
+ {
+  "file": "photo2__salon__T0.jpg",
+  "dog": "photo2",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "T0"
+ },
+ {
+  "file": "photo3__gallery__P0.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "P0"
+ },
+ {
+  "file": "photo3__gallery__W5.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W5"
+ },
+ {
+  "file": "photo3__gallery__W1.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W1"
+ },
+ {
+  "file": "photo3__gallery__W3.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W3"
+ },
+ {
+  "file": "photo3__gallery__W4.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W4"
+ },
+ {
+  "file": "photo3__gallery__W2.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W2"
+ },
+ {
+  "file": "photo3__gallery__T1.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "T1"
+ },
+ {
+  "file": "photo3__gallery__T3.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "T3"
+ },
+ {
+  "file": "photo3__gallery__T4.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "T4"
+ },
+ {
+  "file": "photo3__gallery__T0.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "T0"
+ },
+ {
+  "file": "photo3__salon__P0.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "P0"
+ },
+ {
+  "file": "photo3__salon__W5.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W5"
+ },
+ {
+  "file": "photo3__salon__W1.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W1"
+ },
+ {
+  "file": "photo3__salon__W3.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W3"
+ },
+ {
+  "file": "photo3__salon__W4.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W4"
+ },
+ {
+  "file": "photo3__salon__W2.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W2"
+ },
+ {
+  "file": "photo3__salon__T1.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "T1"
+ },
+ {
+  "file": "photo3__salon__T3.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "T3"
+ },
+ {
+  "file": "photo3__salon__T4.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "T4"
+ },
+ {
+  "file": "photo3__salon__T0.jpg",
+  "dog": "photo3",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "T0"
+ },
+ {
+  "file": "photo6__gallery__P0.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "P0"
+ },
+ {
+  "file": "photo6__gallery__W5.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W5"
+ },
+ {
+  "file": "photo6__gallery__W1.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W1"
+ },
+ {
+  "file": "photo6__gallery__W3.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W3"
+ },
+ {
+  "file": "photo6__gallery__W4.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W4"
+ },
+ {
+  "file": "photo6__gallery__W2.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "W2"
+ },
+ {
+  "file": "photo6__gallery__T1.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "T1"
+ },
+ {
+  "file": "photo6__gallery__T3.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "T3"
+ },
+ {
+  "file": "photo6__gallery__T4.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "T4"
+ },
+ {
+  "file": "photo6__gallery__T0.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "gallery",
+  "cond": "T0"
+ },
+ {
+  "file": "photo6__salon__P0.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "P0"
+ },
+ {
+  "file": "photo6__salon__W5.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W5"
+ },
+ {
+  "file": "photo6__salon__W1.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W1"
+ },
+ {
+  "file": "photo6__salon__W3.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W3"
+ },
+ {
+  "file": "photo6__salon__W4.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W4"
+ },
+ {
+  "file": "photo6__salon__W2.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "W2"
+ },
+ {
+  "file": "photo6__salon__T1.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "T1"
+ },
+ {
+  "file": "photo6__salon__T3.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "T3"
+ },
+ {
+  "file": "photo6__salon__T4.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "T4"
+ },
+ {
+  "file": "photo6__salon__T0.jpg",
+  "dog": "photo6",
+  "kind": "photo",
+  "space": "salon",
+  "cond": "T0"
+ },
+ {
+  "file": "painting1__gallery__P0.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "P0"
+ },
+ {
+  "file": "painting1__gallery__W5.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W5"
+ },
+ {
+  "file": "painting1__gallery__W1.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W1"
+ },
+ {
+  "file": "painting1__gallery__W3.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W3"
+ },
+ {
+  "file": "painting1__gallery__W4.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W4"
+ },
+ {
+  "file": "painting1__gallery__W2.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W2"
+ },
+ {
+  "file": "painting1__gallery__T1.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "T1"
+ },
+ {
+  "file": "painting1__gallery__T3.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "T3"
+ },
+ {
+  "file": "painting1__gallery__T4.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "T4"
+ },
+ {
+  "file": "painting1__gallery__T0.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "T0"
+ },
+ {
+  "file": "painting1__salon__P0.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "P0"
+ },
+ {
+  "file": "painting1__salon__W5.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W5"
+ },
+ {
+  "file": "painting1__salon__W1.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W1"
+ },
+ {
+  "file": "painting1__salon__W3.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W3"
+ },
+ {
+  "file": "painting1__salon__W4.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W4"
+ },
+ {
+  "file": "painting1__salon__W2.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W2"
+ },
+ {
+  "file": "painting1__salon__T1.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "T1"
+ },
+ {
+  "file": "painting1__salon__T3.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "T3"
+ },
+ {
+  "file": "painting1__salon__T4.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "T4"
+ },
+ {
+  "file": "painting1__salon__T0.jpg",
+  "dog": "painting1",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "T0"
+ },
+ {
+  "file": "painting2__gallery__P0.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "P0"
+ },
+ {
+  "file": "painting2__gallery__W5.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W5"
+ },
+ {
+  "file": "painting2__gallery__W1.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W1"
+ },
+ {
+  "file": "painting2__gallery__W3.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W3"
+ },
+ {
+  "file": "painting2__gallery__W4.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W4"
+ },
+ {
+  "file": "painting2__gallery__W2.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W2"
+ },
+ {
+  "file": "painting2__gallery__T1.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "T1"
+ },
+ {
+  "file": "painting2__gallery__T3.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "T3"
+ },
+ {
+  "file": "painting2__gallery__T4.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "T4"
+ },
+ {
+  "file": "painting2__gallery__T0.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "T0"
+ },
+ {
+  "file": "painting2__salon__P0.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "P0"
+ },
+ {
+  "file": "painting2__salon__W5.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W5"
+ },
+ {
+  "file": "painting2__salon__W1.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W1"
+ },
+ {
+  "file": "painting2__salon__W3.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W3"
+ },
+ {
+  "file": "painting2__salon__W4.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W4"
+ },
+ {
+  "file": "painting2__salon__W2.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W2"
+ },
+ {
+  "file": "painting2__salon__T1.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "T1"
+ },
+ {
+  "file": "painting2__salon__T3.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "T3"
+ },
+ {
+  "file": "painting2__salon__T4.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "T4"
+ },
+ {
+  "file": "painting2__salon__T0.jpg",
+  "dog": "painting2",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "T0"
+ },
+ {
+  "file": "painting3__gallery__P0.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "P0"
+ },
+ {
+  "file": "painting3__gallery__W5.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W5"
+ },
+ {
+  "file": "painting3__gallery__W1.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W1"
+ },
+ {
+  "file": "painting3__gallery__W3.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W3"
+ },
+ {
+  "file": "painting3__gallery__W4.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W4"
+ },
+ {
+  "file": "painting3__gallery__W2.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "W2"
+ },
+ {
+  "file": "painting3__gallery__T1.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "T1"
+ },
+ {
+  "file": "painting3__gallery__T3.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "T3"
+ },
+ {
+  "file": "painting3__gallery__T4.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "T4"
+ },
+ {
+  "file": "painting3__gallery__T0.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "gallery",
+  "cond": "T0"
+ },
+ {
+  "file": "painting3__salon__P0.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "P0"
+ },
+ {
+  "file": "painting3__salon__W5.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W5"
+ },
+ {
+  "file": "painting3__salon__W1.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W1"
+ },
+ {
+  "file": "painting3__salon__W3.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W3"
+ },
+ {
+  "file": "painting3__salon__W4.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W4"
+ },
+ {
+  "file": "painting3__salon__W2.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "W2"
+ },
+ {
+  "file": "painting3__salon__T1.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "T1"
+ },
+ {
+  "file": "painting3__salon__T3.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "T3"
+ },
+ {
+  "file": "painting3__salon__T4.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "T4"
+ },
+ {
+  "file": "painting3__salon__T0.jpg",
+  "dog": "painting3",
+  "kind": "painting",
+  "space": "salon",
+  "cond": "T0"
+ }
+]

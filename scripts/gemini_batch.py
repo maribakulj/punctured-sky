@@ -2,9 +2,9 @@
 """Blind readings by Gemini (agy print mode), one fresh session per image and per question.
 
 Usage: python scripts/gemini_batch.py <dir with img/ PROMPTS.md readings.jsonl> [shard nshards]
-Resumable: skips (file, which) pairs already in readings.jsonl.
+RAW_OK=1 keeps a non-JSON answer as {"raw": ...}. REPS=n repeats each question n times (keys "<question>#<k>"). Resumable: skips (file, which) pairs already in readings.jsonl.
 """
-import json, re, subprocess, sys
+import json, os, re, subprocess, sys
 from pathlib import Path
 
 d = Path(sys.argv[1]).resolve()
@@ -25,10 +25,11 @@ shard, nsh = (int(sys.argv[2]), int(sys.argv[3])) if len(sys.argv) > 3 else (0, 
 for i, f in enumerate(sorted((d / "img").glob("*.jpg"))):
     if i % nsh != shard:
         continue
-    for which in prompts:
+    reps = int(os.environ.get("REPS", "1"))
+    for which in [w if reps == 1 else f"{w}#{r + 1}" for r in range(reps) for w in prompts]:
         if (f.name, which) in done:
             continue
-        q = prompts[which] + f"\n\nImage : @{f.relative_to(d)}\nNe lis aucun autre fichier."
+        q = prompts[which.split("#")[0]] + f"\n\nImage : @{f.relative_to(d)}\nNe lis aucun autre fichier."
         ans = None
         for _ in range(3):
             try:
@@ -44,7 +45,9 @@ for i, f in enumerate(sorted((d / "img").glob("*.jpg"))):
                     pass
         row = {"file": f.name, "which": which, "model": "gemini-3.8-flash (agy -p)",
                "answer": ans}
-        if ans is None:
+        if ans is None and os.environ.get("RAW_OK") and p.stdout.strip():
+            row["answer"] = {"raw": p.stdout.strip()[-500:]}
+        elif ans is None:
             print(f.name, which, "FAILED", flush=True); continue
         with out.open("a") as fh:
             fh.write(json.dumps(row, ensure_ascii=False) + "\n")

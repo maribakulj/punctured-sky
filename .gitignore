@@ -24,3 +24,7 @@ data/chien/src/*.jpg
 data/chien/inspect_src/img/
 data/chien/img/
 data/chien/gemini/img/
+data/chien/gemini_q/img/
+data/chien/gemini_txt/img/
+data/chien/inspect_build/img/
+.DS_Store

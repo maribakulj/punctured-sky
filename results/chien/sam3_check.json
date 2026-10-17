@@ -1,0 +1,482 @@
+{
+ "photo2__gallery__P0.jpg": {
+  "n": 1,
+  "score": 0.9714305400848389
+ },
+ "photo2__gallery__W5.jpg": {
+  "n": 1,
+  "score": 0.9723410606384277
+ },
+ "photo2__gallery__W1.jpg": {
+  "n": 1,
+  "score": 0.9649626612663269
+ },
+ "photo2__gallery__W3.jpg": {
+  "n": 1,
+  "score": 0.9654298424720764
+ },
+ "photo2__gallery__W4.jpg": {
+  "n": 1,
+  "score": 0.962794840335846
+ },
+ "photo2__gallery__W2.jpg": {
+  "n": 1,
+  "score": 0.9650688171386719
+ },
+ "photo2__gallery__T1.jpg": {
+  "n": 1,
+  "score": 0.9423658847808838
+ },
+ "photo2__gallery__T3.jpg": {
+  "n": 1,
+  "score": 0.8924526572227478
+ },
+ "photo2__gallery__T4.jpg": {
+  "n": 1,
+  "score": 0.8869186639785767
+ },
+ "photo2__gallery__T0.jpg": {
+  "n": 0,
+  "score": 0.0
+ },
+ "photo2__salon__P0.jpg": {
+  "n": 1,
+  "score": 0.9780086278915405
+ },
+ "photo2__salon__W5.jpg": {
+  "n": 1,
+  "score": 0.9723175168037415
+ },
+ "photo2__salon__W1.jpg": {
+  "n": 1,
+  "score": 0.9666646122932434
+ },
+ "photo2__salon__W3.jpg": {
+  "n": 1,
+  "score": 0.9636477828025818
+ },
+ "photo2__salon__W4.jpg": {
+  "n": 1,
+  "score": 0.9639154672622681
+ },
+ "photo2__salon__W2.jpg": {
+  "n": 1,
+  "score": 0.9646301865577698
+ },
+ "photo2__salon__T1.jpg": {
+  "n": 1,
+  "score": 0.9541273713111877
+ },
+ "photo2__salon__T3.jpg": {
+  "n": 1,
+  "score": 0.9520912170410156
+ },
+ "photo2__salon__T4.jpg": {
+  "n": 1,
+  "score": 0.9520524740219116
+ },
+ "photo2__salon__T0.jpg": {
+  "n": 0,
+  "score": 0.0
+ },
+ "photo3__gallery__P0.jpg": {
+  "n": 1,
+  "score": 0.9735956192016602
+ },
+ "photo3__gallery__W5.jpg": {
+  "n": 1,
+  "score": 0.9691672325134277
+ },
+ "photo3__gallery__W1.jpg": {
+  "n": 1,
+  "score": 0.9613339304924011
+ },
+ "photo3__gallery__W3.jpg": {
+  "n": 1,
+  "score": 0.9623660445213318
+ },
+ "photo3__gallery__W4.jpg": {
+  "n": 1,
+  "score": 0.961561918258667
+ },
+ "photo3__gallery__W2.jpg": {
+  "n": 1,
+  "score": 0.9592089653015137
+ },
+ "photo3__gallery__T1.jpg": {
+  "n": 1,
+  "score": 0.942029595375061
+ },
+ "photo3__gallery__T3.jpg": {
+  "n": 1,
+  "score": 0.9419806599617004
+ },
+ "photo3__gallery__T4.jpg": {
+  "n": 1,
+  "score": 0.9410768747329712
+ },
+ "photo3__gallery__T0.jpg": {
+  "n": 0,
+  "score": 0.0
+ },
+ "photo3__salon__P0.jpg": {
+  "n": 1,
+  "score": 0.9801321625709534
+ },
+ "photo3__salon__W5.jpg": {
+  "n": 1,
+  "score": 0.9754939675331116
+ },
+ "photo3__salon__W1.jpg": {
+  "n": 1,
+  "score": 0.9054242372512817
+ },
+ "photo3__salon__W3.jpg": {
+  "n": 1,
+  "score": 0.9226690530776978
+ },
+ "photo3__salon__W4.jpg": {
+  "n": 1,
+  "score": 0.92673259973526
+ },
+ "photo3__salon__W2.jpg": {
+  "n": 1,
+  "score": 0.9344950914382935
+ },
+ "photo3__salon__T1.jpg": {
+  "n": 1,
+  "score": 0.8418758511543274
+ },
+ "photo3__salon__T3.jpg": {
+  "n": 1,
+  "score": 0.8493564128875732
+ },
+ "photo3__salon__T4.jpg": {
+  "n": 1,
+  "score": 0.8660842180252075
+ },
+ "photo3__salon__T0.jpg": {
+  "n": 0,
+  "score": 0.0
+ },
+ "photo6__gallery__P0.jpg": {
+  "n": 1,
+  "score": 0.9738336205482483
+ },
+ "photo6__gallery__W5.jpg": {
+  "n": 1,
+  "score": 0.9739741683006287
+ },
+ "photo6__gallery__W1.jpg": {
+  "n": 1,
+  "score": 0.9558015465736389
+ },
+ "photo6__gallery__W3.jpg": {
+  "n": 1,
+  "score": 0.9585955142974854
+ },
+ "photo6__gallery__W4.jpg": {
+  "n": 1,
+  "score": 0.9594154357910156
+ },
+ "photo6__gallery__W2.jpg": {
+  "n": 1,
+  "score": 0.9622920751571655
+ },
+ "photo6__gallery__T1.jpg": {
+  "n": 1,
+  "score": 0.8675119280815125
+ },
+ "photo6__gallery__T3.jpg": {
+  "n": 1,
+  "score": 0.9581159949302673
+ },
+ "photo6__gallery__T4.jpg": {
+  "n": 1,
+  "score": 0.9501083493232727
+ },
+ "photo6__gallery__T0.jpg": {
+  "n": 0,
+  "score": 0.0
+ },
+ "photo6__salon__P0.jpg": {
+  "n": 1,
+  "score": 0.9792627096176147
+ },
+ "photo6__salon__W5.jpg": {
+  "n": 1,
+  "score": 0.9688189625740051
+ },
+ "photo6__salon__W1.jpg": {
+  "n": 1,
+  "score": 0.9666358232498169
+ },
+ "photo6__salon__W3.jpg": {
+  "n": 1,
+  "score": 0.9653906226158142
+ },
+ "photo6__salon__W4.jpg": {
+  "n": 1,
+  "score": 0.9659280776977539
+ },
+ "photo6__salon__W2.jpg": {
+  "n": 1,
+  "score": 0.9665971398353577
+ },
+ "photo6__salon__T1.jpg": {
+  "n": 1,
+  "score": 0.9580329060554504
+ },
+ "photo6__salon__T3.jpg": {
+  "n": 1,
+  "score": 0.9547870755195618
+ },
+ "photo6__salon__T4.jpg": {
+  "n": 1,
+  "score": 0.9553099870681763
+ },
+ "photo6__salon__T0.jpg": {
+  "n": 0,
+  "score": 0.0
+ },
+ "painting1__gallery__P0.jpg": {
+  "n": 1,
+  "score": 0.9687997698783875
+ },
+ "painting1__gallery__W5.jpg": {
+  "n": 1,
+  "score": 0.9714553356170654
+ },
+ "painting1__gallery__W1.jpg": {
+  "n": 1,
+  "score": 0.9562084674835205
+ },
+ "painting1__gallery__W3.jpg": {
+  "n": 1,
+  "score": 0.959715723991394
+ },
+ "painting1__gallery__W4.jpg": {
+  "n": 1,
+  "score": 0.9575110673904419
+ },
+ "painting1__gallery__W2.jpg": {
+  "n": 1,
+  "score": 0.956706702709198
+ },
+ "painting1__gallery__T1.jpg": {
+  "n": 1,
+  "score": 0.9527228474617004
+ },
+ "painting1__gallery__T3.jpg": {
+  "n": 1,
+  "score": 0.9548832178115845
+ },
+ "painting1__gallery__T4.jpg": {
+  "n": 1,
+  "score": 0.953275740146637
+ },
+ "painting1__gallery__T0.jpg": {
+  "n": 0,
+  "score": 0.0
+ },
+ "painting1__salon__P0.jpg": {
+  "n": 1,
+  "score": 0.9784715175628662
+ },
+ "painting1__salon__W5.jpg": {
+  "n": 1,
+  "score": 0.9724869728088379
+ },
+ "painting1__salon__W1.jpg": {
+  "n": 1,
+  "score": 0.9490283131599426
+ },
+ "painting1__salon__W3.jpg": {
+  "n": 1,
+  "score": 0.9478150010108948
+ },
+ "painting1__salon__W4.jpg": {
+  "n": 1,
+  "score": 0.9480867385864258
+ },
+ "painting1__salon__W2.jpg": {
+  "n": 1,
+  "score": 0.9478751420974731
+ },
+ "painting1__salon__T1.jpg": {
+  "n": 1,
+  "score": 0.9438118934631348
+ },
+ "painting1__salon__T3.jpg": {
+  "n": 1,
+  "score": 0.9405468702316284
+ },
+ "painting1__salon__T4.jpg": {
+  "n": 1,
+  "score": 0.9423181414604187
+ },
+ "painting1__salon__T0.jpg": {
+  "n": 0,
+  "score": 0.0
+ },
+ "painting2__gallery__P0.jpg": {
+  "n": 1,
+  "score": 0.9649186134338379
+ },
+ "painting2__gallery__W5.jpg": {
+  "n": 1,
+  "score": 0.9696049094200134
+ },
+ "painting2__gallery__W1.jpg": {
+  "n": 1,
+  "score": 0.9205856919288635
+ },
+ "painting2__gallery__W3.jpg": {
+  "n": 1,
+  "score": 0.9246519804000854
+ },
+ "painting2__gallery__W4.jpg": {
+  "n": 1,
+  "score": 0.9304594993591309
+ },
+ "painting2__gallery__W2.jpg": {
+  "n": 1,
+  "score": 0.9353123903274536
+ },
+ "painting2__gallery__T1.jpg": {
+  "n": 1,
+  "score": 0.9148682355880737
+ },
+ "painting2__gallery__T3.jpg": {
+  "n": 1,
+  "score": 0.9159750938415527
+ },
+ "painting2__gallery__T4.jpg": {
+  "n": 1,
+  "score": 0.9188814759254456
+ },
+ "painting2__gallery__T0.jpg": {
+  "n": 0,
+  "score": 0.0
+ },
+ "painting2__salon__P0.jpg": {
+  "n": 1,
+  "score": 0.9728819727897644
+ },
+ "painting2__salon__W5.jpg": {
+  "n": 1,
+  "score": 0.9664306640625
+ },
+ "painting2__salon__W1.jpg": {
+  "n": 1,
+  "score": 0.9033653736114502
+ },
+ "painting2__salon__W3.jpg": {
+  "n": 1,
+  "score": 0.8973805904388428
+ },
+ "painting2__salon__W4.jpg": {
+  "n": 1,
+  "score": 0.91058748960495
+ },
+ "painting2__salon__W2.jpg": {
+  "n": 1,
+  "score": 0.8934996128082275
+ },
+ "painting2__salon__T1.jpg": {
+  "n": 1,
+  "score": 0.8676565885543823
+ },
+ "painting2__salon__T3.jpg": {
+  "n": 1,
+  "score": 0.8641044497489929
+ },
+ "painting2__salon__T4.jpg": {
+  "n": 1,
+  "score": 0.8804677724838257
+ },
+ "painting2__salon__T0.jpg": {
+  "n": 0,
+  "score": 0.0
+ },
+ "painting3__gallery__P0.jpg": {
+  "n": 1,
+  "score": 0.9707806706428528
+ },
+ "painting3__gallery__W5.jpg": {
+  "n": 1,
+  "score": 0.9672724008560181
+ },
+ "painting3__gallery__W1.jpg": {
+  "n": 2,
+  "score": 0.9490719437599182
+ },
+ "painting3__gallery__W3.jpg": {
+  "n": 1,
+  "score": 0.9552401900291443
+ },
+ "painting3__gallery__W4.jpg": {
+  "n": 1,
+  "score": 0.9516425132751465
+ },
+ "painting3__gallery__W2.jpg": {
+  "n": 2,
+  "score": 0.9460099339485168
+ },
+ "painting3__gallery__T1.jpg": {
+  "n": 2,
+  "score": 0.9243060946464539
+ },
+ "painting3__gallery__T3.jpg": {
+  "n": 1,
+  "score": 0.9182997941970825
+ },
+ "painting3__gallery__T4.jpg": {
+  "n": 1,
+  "score": 0.9167962670326233
+ },
+ "painting3__gallery__T0.jpg": {
+  "n": 0,
+  "score": 0.0
+ },
+ "painting3__salon__P0.jpg": {
+  "n": 1,
+  "score": 0.9757354259490967
+ },
+ "painting3__salon__W5.jpg": {
+  "n": 1,
+  "score": 0.9715563654899597
+ },
+ "painting3__salon__W1.jpg": {
+  "n": 4,
+  "score": 0.8562082648277283
+ },
+ "painting3__salon__W3.jpg": {
+  "n": 3,
+  "score": 0.8648619055747986
+ },
+ "painting3__salon__W4.jpg": {
+  "n": 3,
+  "score": 0.8721896409988403
+ },
+ "painting3__salon__W2.jpg": {
+  "n": 4,
+  "score": 0.849381148815155
+ },
+ "painting3__salon__T1.jpg": {
+  "n": 3,
+  "score": 0.4921683371067047
+ },
+ "painting3__salon__T3.jpg": {
+  "n": 4,
+  "score": 0.6609550714492798
+ },
+ "painting3__salon__T4.jpg": {
+  "n": 4,
+  "score": 0.6938372850418091
+ },
+ "painting3__salon__T0.jpg": {
+  "n": 0,
+  "score": 0.0
+ }
+}

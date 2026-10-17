@@ -1,0 +1,334 @@
+{
+ "decoupling": {
+  "q_present|P0": {
+   "pct": 0.0,
+   "ci": [
+    0.0,
+    13.8
+   ],
+   "n": 24,
+   "photo": 0.0,
+   "painting": 0.0,
+   "gallery": 0.0,
+   "salon": 0.0
+  },
+  "q_present|W5": {
+   "pct": 50.0,
+   "ci": [
+    31.4,
+    68.6
+   ],
+   "n": 24,
+   "photo": 58.3,
+   "painting": 41.7,
+   "gallery": 75.0,
+   "salon": 25.0
+  },
+  "q_present|W1": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_present|W2": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_present|W3": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_present|W4": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_aboie|P0": {
+   "pct": 95.8,
+   "ci": [
+    79.8,
+    99.3
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 91.7,
+   "gallery": 91.7,
+   "salon": 100.0
+  },
+  "q_aboie|W5": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_aboie|W1": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_aboie|W2": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_aboie|W3": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_aboie|W4": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_vivants|P0": {
+   "pct": 4.2,
+   "ci": [
+    0.7,
+    20.2
+   ],
+   "n": 24,
+   "photo": 0.0,
+   "painting": 8.3,
+   "gallery": 0.0,
+   "salon": 8.3
+  },
+  "q_vivants|W5": {
+   "pct": 70.8,
+   "ci": [
+    50.8,
+    85.1
+   ],
+   "n": 24,
+   "photo": 50.0,
+   "painting": 91.7,
+   "gallery": 66.7,
+   "salon": 75.0
+  },
+  "q_vivants|W1": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_vivants|W2": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_vivants|W3": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_vivants|W4": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_decrit|P0": {
+   "pct": 16.7,
+   "ci": [
+    6.7,
+    35.9
+   ],
+   "n": 24,
+   "photo": 8.3,
+   "painting": 25.0,
+   "gallery": 25.0,
+   "salon": 8.3
+  },
+  "q_decrit|W5": {
+   "pct": 50.0,
+   "ci": [
+    31.4,
+    68.6
+   ],
+   "n": 24,
+   "photo": 50.0,
+   "painting": 50.0,
+   "gallery": 83.3,
+   "salon": 16.7
+  },
+  "q_decrit|W1": {
+   "pct": 79.2,
+   "ci": [
+    59.5,
+    90.8
+   ],
+   "n": 24,
+   "photo": 58.3,
+   "painting": 100.0,
+   "gallery": 58.3,
+   "salon": 100.0
+  },
+  "q_decrit|W2": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_decrit|W3": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  },
+  "q_decrit|W4": {
+   "pct": 100.0,
+   "ci": [
+    86.2,
+    100.0
+   ],
+   "n": 24,
+   "photo": 100.0,
+   "painting": 100.0,
+   "gallery": 100.0,
+   "salon": 100.0
+  }
+ },
+ "obedience": {
+  "T0": {
+   "pct": 0.0,
+   "ci": [
+    0.0,
+    13.8
+   ],
+   "n": 24,
+   "photo": 0.0,
+   "painting": 0.0
+  },
+  "T1": {
+   "pct": 0.0,
+   "ci": [
+    0.0,
+    13.8
+   ],
+   "n": 24,
+   "photo": 0.0,
+   "painting": 0.0
+  },
+  "T3": {
+   "pct": 0.0,
+   "ci": [
+    0.0,
+    13.8
+   ],
+   "n": 24,
+   "photo": 0.0,
+   "painting": 0.0
+  },
+  "T4": {
+   "pct": 0.0,
+   "ci": [
+    0.0,
+    13.8
+   ],
+   "n": 24,
+   "photo": 0.0,
+   "painting": 0.0
+  }
+ }
+}
