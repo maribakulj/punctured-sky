@@ -471,8 +471,7 @@ fonctionnent comme des étiquettes.
 ### 4.8 Le cadre de la machine
 
 La machine trace elle-même des bords : un détecteur ou un segmenteur à qui l'on demande « le
-tableau » découpe une région, et c'est désormais ce découpage que l'on décrit ou que l'on cherche
-(le Rijksmuseum en a fait le prototype d'une recherche par fragments). Où passe ce bord ?
+tableau » découpe une région, et c'est désormais ce découpage que l'on décrit ou que l'on cherche. Où passe ce bord ?
 
 Sur nos 100 montages (`results/machine_frame/summary.json`), Grounding DINO et OWLv2 incluent le
 cadre quand on leur demande « a painting » ou « an artwork ». Sur les 30 tableaux du YCBA, le
