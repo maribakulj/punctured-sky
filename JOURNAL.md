@@ -712,3 +712,20 @@ dont trois bords tracés par le musée ; Witt Library ; photos de visiteurs du M
 
 Limites : pilote, 3 à 4 images par case ; la question du prix est ambiguë (dans les pièces, prix
 de la pièce ; découpé, parfois le total du ticket).
+
+## 17/10/2026 — Yale lu par Gemini, FSA contre Arnold & Tilton, SAM 3, article augmenté
+
+- **Gemini en lot** : `agy -p` lit une image en 10-40 s sans autorisation ; `scripts/gemini_batch.py`
+  (3 fils). YCBA : 420/420 lectures (`notes/ycba-gemini.md`). Le cadre doré ne change pas le prix
+  des vrais tableaux (rapport 1,0) mais place l'œuvre au musée (30/30 contre 14/30) ; la mire et la
+  marque du YCBA sont lues (propriétaire « Yale » 30/31) ; le nom du peintre est lu au revers
+  (15/30, contre 0-2/30 sur la face) ; le découpage machine efface l'institution (7/31).
+- **FSA-OWI** (`notes/fsa-gemini.md`) : l'article d'Arnold & Tilton (HN 13, 2026) annonce 45 000
+  images et 4 modèles, mais Zenodo n'en contient qu'un (`project-4.pt`). Sur 43 photos, le bord du
+  film est transparent pour Gemini (25/30 datations identiques, support jamais nommé) et pour 4
+  encodeurs (top-1 43/43, +0,00 à +0,03 de similarité entre photos).
+- **SAM 3** (accès obtenu) : le bord dépend du mot ; « painting » donne la toile seule 16/30,
+  « artwork » le cadre 19/30 ; « print » ne trouve rien sur les estampes (`notes/sam3-ycba.md`).
+- **Dossier renommé** `~/punctured-sky` (lien `~/impressions` conservé).
+- **Article** : sections 4.7 (valeur, lieu, nom) et 4.8 (cadre de la machine), résumé, discussion
+  (« cadre-fenêtre / cadre-étiquette », une réponse par outil et par mot), limites.

@@ -19,8 +19,14 @@ lui demande, mais n'en fait plus le sujet de sa description (0 sur 30) — exact
 les mêmes pixels, à la même place, sont posés sur un autre tableau (0 sur 30), alors que sur du
 gris ils restent le sujet (30 sur 30) ; un livre sans aucun texte fait de même (2 sur 30). Ce qui
 décide est la saillance de l'œuvre dans l'image, non la nature de ce qui l'entoure. Sur les vraies
-reproductions, l'œuvre passe au second plan surtout quand des personnes sont visibles. Pour ces
-machines et ces tâches, le support ne joue pas de rôle propre : il fait partie de la scène.
+reproductions, l'œuvre passe au second plan surtout quand des personnes sont visibles. Pour la
+description du sujet, le support ne joue pas de rôle propre : il fait partie de la scène. Il en
+joue un pour la situation de l'image. Un cadre rocaille fait passer le prix d'un ticket de caisse
+de 0,01 € à 9 500 €, sauf si l'œuvre est reconnue. Sur 30 vrais tableaux du Yale Center for British
+Art, le cadre ne change pas le prix, mais il installe l'œuvre au musée, et la marque de l'institution
+est lue sur la photo. Le bord du film d'une photo d'archive, lui, est traversé sans être vu. Les
+segmenteurs tracent un bord qui dépend du mot de la consigne : avec « painting », SAM 3 garde la
+toile ; avec « artwork », il garde le cadre.
 
 ## 1. La question
 
@@ -424,6 +430,62 @@ plus qu'il ne compte. Il reconnaît enfin nos couches fabriquées comme des mont
 et les vraies photos comme vraies (3,5 % de « montage ») : c'est pourquoi les conclusions
 retenues sont celles qui tiennent sur le réel.
 
+### 4.7 Ce que le cadre déplace : la valeur, le lieu, le nom
+
+Les mesures qui précèdent portent sur le *sujet* : de quoi parle la description, quelle image
+l'encodeur retrouve. Le cadre pèse ailleurs. Nous avons demandé aux modèles de situer l'image
+(lieu, époque, propriétaire, prix probable, « est-ce de l'art ? »), questions posées dans une
+session séparée, après une description du sujet seule.
+
+**Sur des montages** (09/10, `results/social/`) : cinq contenus (un Renoir, un Mondrian, un dessin
+d'enfant, une photo de plage, un ticket de caisse) × cinq cadres (aucun, moderne, classique,
+noirci, rocaille) × quatre espaces, soit 100 images. Le cadre fait le prix de ce qui n'en a pas.
+Sur fond gris ou en galerie, le prix médian donné par Claude au ticket passe de 0,01 € sans cadre
+à 9 500 € dans un cadre rocaille, et celui du dessin d'enfant de 2,50 € à 5 000 €. Le Renoir et le
+Mondrian, reconnus, restent entre 25 et 50 M€ quel que soit le cadre. Gemini 3.8 Flash reproduit
+l'effet sur les contenus ordinaires (ticket : 17 € → 1 650 €), mais il ne reconnaît pas le Renoir :
+celui-ci passe alors de 775 000 € sans cadre à 15 M€ en rocaille. Le cadre agit comme une étiquette,
+et seulement là où le nom manque.
+
+**Sur de vrais tableaux** (Yale Center for British Art, 17/10, `results/ycba/gemini_summary.json`) :
+30 huiles du domaine public, dont 10 de peintres célèbres, photographiées par le musée sans cadre,
+encadrées et de dos, lues à l'aveugle par Gemini. Comparé à lui-même, chaque tableau encadré ne
+vaut pas plus que sans cadre (rapport médian 1,0 pour les peu connus ; 7 hausses, 7 égalités, 6
+baisses). Le contenu est déjà, à l'évidence, une peinture ancienne. Le cadre déplace en revanche le
+**lieu** : la scène est située dans un musée pour 30 vues encadrées sur 30, contre 14 sur 30 pour
+l'image seule. Deux autres seuils pèsent davantage que la dorure. La photographie du musée
+contient sa mire et sa marque, et Gemini nomme le Yale Center for British Art comme propriétaire
+dans 30 vues encadrées sur 31. Et le nom du peintre, presque jamais trouvé sur la face (0 à 2 cas
+sur 30), est lu sur les étiquettes du revers 15 fois sur 30. Le paratexte n'est pas autour de
+l'œuvre, il est derrière (`notes/ycba-gemini.md`).
+
+**Sur des photographies d'archive** (FSA-OWI, 17/10, `results/fsa/`) : Arnold et Tilton (2026)
+retirent le bord du film des négatifs comme un bruit qui perturberait les modèles, sans mesurer
+cette perturbation. Nous avons pris 43 photos du domaine public, découpées par le seul de leurs
+modèles qu'ils ont publié. Pour Gemini, le bord est transparent : même datation dans 25 cas sur 30,
+même prix médian, et le négatif n'est jamais nommé. Pour CLIP, SigLIP, DINOv2 et DINOv3, la photo
+découpée retrouve sa version entière en premier dans 43 cas sur 43. Le bord du film fonctionne
+comme le *cache* de Bazin, une fenêtre que le regard traverse. Le cadre doré et la marque du musée
+fonctionnent comme des étiquettes.
+
+### 4.8 Le cadre de la machine
+
+La machine trace elle-même des bords : un détecteur ou un segmenteur à qui l'on demande « le
+tableau » découpe une région, et c'est désormais ce découpage que l'on décrit ou que l'on cherche
+(le Rijksmuseum en a fait le prototype d'une recherche par fragments). Où passe ce bord ?
+
+Sur nos 100 montages (`results/machine_frame/summary.json`), Grounding DINO et OWLv2 incluent le
+cadre quand on leur demande « a painting » ou « an artwork ». Sur les 30 tableaux du YCBA, le
+résultat est le même : la boîte couvre 1,7 à 1,8 fois l'image du musée. Sans cadre, ils coupent au
+bord de la toile (rapport 1,06 à 1,08). Sur les feuilles d'estampe, ils coupent la marge, donc le
+titre et la légende gravés, 7 à 10 fois sur 10. SAM 3, plus récent et guidé par un mot, sépare
+davantage (`notes/sam3-ycba.md`). Avec « painting », il garde la toile seule 16 fois sur 30 ; avec
+« artwork », il inclut le cadre 19 fois sur 30 ; avec « picture frame », il donne le cadre 30 fois
+sur 30. Le bord de l'œuvre dépend du mot de la consigne. Ce découpage change à son tour la
+lecture : une fois la vue du musée découpée par la machine, Gemini ne nomme plus le YCBA comme
+propriétaire que 7 fois sur 31. Le recadrage machine garde la dorure et efface l'institution et la
+légende.
+
 ## 5. Discussion
 
 **Le support comme élément de la scène.** Une partie de la théorie du cadre décrit une limite qui
@@ -437,6 +499,16 @@ une réponse à Derrida : le *parergon* problématise la frontière entre l'œuv
 n'est pas une faculté qu'un modèle aurait ou n'aurait pas. Notre protocole, lui, trace cette
 frontière d'avance (le masque de l'œuvre), et c'est sur cette frontière construite que nous
 mesurons.
+
+**Ce que le cadre fait quand même.** Le cadre ne change ni le sujet décrit ni l'image retrouvée,
+mais il change la situation de l'image : son prix quand le contenu ne dit rien, son lieu, son
+propriétaire (4.7). La machine sépare en pratique deux sortes de cadres. Le cadre-fenêtre (bord du
+film, bord du fichier) est traversé. Le cadre-étiquette (dorure, mire et marque du musée,
+étiquettes du revers) est lu comme un message sur l'objet, au sens de Bateson. Et le nom, quand la
+machine reconnaît l'œuvre, l'emporte sur tous les cadres. Les outils de segmentation ajoutent un
+troisième cadre, qu'ils tracent eux-mêmes et dont le bord suit le mot de la consigne (4.8). La
+question du *parergon* ne reçoit pas une réponse de la machine. Elle en reçoit une par outil et par
+mot.
 
 **Ce que cela dit de l'intuition de départ.** L'idée que le cadre « enveloppe une partie du sens »
 est vraie de la peinture et du regard humain que décrit la théorie ; nos mesures disent qu'elle ne
@@ -477,6 +549,10 @@ médium lu suit l'enveloppe ; une œuvre trop petite n'est plus reconnue.
   ressemblent par fabrication, et nous n'avons pas utilisé de mesure qui en dépende.
 - **Trois encodeurs de taille moyenne.** D'autres modèles peuvent différer. Même complétée en
   carré, l'image est encore recadrée de 12,5 % par DINOv2 (environ 6 % sur chaque bord).
+- **Pilotes de 4.7 et 4.8.** Une lecture par image, un seul lecteur par expérience (Claude ou
+  Gemini Flash), 10 à 30 objets par case, aucun intervalle de confiance : ce sont des pilotes. Les
+  prix varient beaucoup d'une lecture à l'autre. Sur la FSA, le modèle d'Arnold et Tilton échoue sur
+  17 diapositives couleur sur 30, et nous n'avons pas de tirages sur carton.
 - **Pas d'humains.** L'enquête qui comparerait des personnes et des machines sur les mêmes images
   est prête (`human_study/`) mais n'a pas été menée ; c'est sans doute là que se trouve la suite :
   savoir si les humains, eux, rétrogradent l'œuvre.
