@@ -24,7 +24,8 @@ description du sujet, le support ne joue pas de rôle propre : il fait partie de
 joue un pour la situation de l'image. Un cadre rocaille fait passer le prix d'un ticket de caisse
 de 0,01 € à 9 500 €, sauf si l'œuvre est reconnue. Sur 30 vrais tableaux du Yale Center for British
 Art, le cadre ne change pas le prix, mais il installe l'œuvre au musée, et la marque de l'institution
-est lue sur la photo. Le bord du film d'une photo d'archive, lui, est traversé sans être vu. Les
+est lue sur la photo. Le bord du film d'une photo d'archive ne change pas les réponses sur la
+scène, sans que l'on sache encore s'il est vu. Les
 segmenteurs tracent un bord qui dépend du mot de la consigne : avec « painting », SAM 3 garde la
 toile ; avec « artwork », il garde le cadre.
 
@@ -462,11 +463,12 @@ l'œuvre, il est derrière (`notes/ycba-gemini.md`).
 **Sur des photographies d'archive** (FSA-OWI, 17/10, `results/fsa/`) : Arnold et Tilton (2026)
 retirent le bord du film des négatifs comme un bruit qui perturberait les modèles, sans mesurer
 cette perturbation. Nous avons pris 43 photos du domaine public, découpées par le seul de leurs
-modèles qu'ils ont publié. Pour Gemini, le bord est transparent : même datation dans 25 cas sur 30,
-même prix médian, et le négatif n'est jamais nommé. Pour CLIP, SigLIP, DINOv2 et DINOv3, la photo
-découpée retrouve sa version entière en premier dans 43 cas sur 43. Le bord du film fonctionne
-comme le *cache* de Bazin, une fenêtre que le regard traverse. Le cadre doré et la marque du musée
-fonctionnent comme des étiquettes.
+modèles qu'ils ont publié. Pour ces questions sur la scène, les réponses de Gemini ne changent
+pas : même datation dans 25 cas sur 30, même prix médian, et le négatif n'est jamais nommé. Pour
+CLIP, SigLIP, DINOv2 et DINOv3, la photo découpée retrouve sa version entière en premier dans 43
+cas sur 43. Cette absence de différence ne dit pas que le bord est « traversé » : nous n'avons
+vérifié ni que le modèle le voit, ni qu'il s'en sert quand la question porte sur l'objet
+(`notes/revue/00-synthese.md`, §4.3).
 
 ### 4.8 Le cadre de la machine
 
@@ -501,10 +503,11 @@ mesurons.
 
 **Ce que le cadre fait quand même.** Le cadre ne change ni le sujet décrit ni l'image retrouvée,
 mais il change la situation de l'image : son prix quand le contenu ne dit rien, son lieu, son
-propriétaire (4.7). La machine sépare en pratique deux sortes de cadres. Le cadre-fenêtre (bord du
-film, bord du fichier) est traversé. Le cadre-étiquette (dorure, mire et marque du musée,
-étiquettes du revers) est lu comme un message sur l'objet, au sens de Bateson. Et le nom, quand la
-machine reconnaît l'œuvre, l'emporte sur tous les cadres. Les outils de segmentation ajoutent un
+propriétaire (4.7). Ces effets n'établissent pas encore que la machine *lit* le cadre comme un
+message (au sens de Bateson) plutôt qu'elle n'y réagit comme à un indice statistique : il
+faudrait un faux cadre de même surface et de même couleur, une gradation, et des justifications
+codées (`notes/revue/00-synthese.md`, §5). Le nom, quand la machine reconnaît l'œuvre, semble
+l'emporter sur tous les cadres. Les outils de segmentation ajoutent un
 troisième cadre, qu'ils tracent eux-mêmes et dont le bord suit le mot de la consigne (4.8). La
 question du *parergon* ne reçoit pas une réponse de la machine. Elle en reçoit une par outil et par
 mot.

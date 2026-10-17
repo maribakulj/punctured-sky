@@ -19,7 +19,7 @@ questions que pour le YCBA. Chiffres : `results/fsa/summary.json` (`scripts/fsa_
    donc important. Sur la couleur, rien n'est détecté pour 7 photos sur 30, et 10 autres ont un
    découpage douteux (confiance < 0,9 ou moins de la moitié de l'image). Il en reste 13. On
    retrouve ce que leur article montre d'un support à l'autre.
-2. **Pour Gemini, le bord du film est transparent.** Sur 30 négatifs, avec ou sans bord :
+2. **Pour Gemini, le bord du film ne change pas les réponses sur la scène.** Sur 30 négatifs, avec ou sans bord :
    - même datation dans 25 cas sur 30 (médiane « années 1930 » dans les deux cas) ;
    - prix médian identique (rapport 1,0 : 9 hausses, 12 égalités, 8 baisses) ;
    - le support (négatif, film, perforations, archive) n'est **jamais** nommé, ni dans la
@@ -42,11 +42,11 @@ questions que pour le YCBA. Chiffres : `results/fsa/summary.json` (`scripts/fsa_
   semblables entre elles : de +0,00 (DINOv3, noir et blanc) à +0,03 (CLIP, couleur). C'est un
   effet réel mais minime, loin du « de manière significative » de l'article. Le bord pourrait
   peser davantage sur un corpus où il varie beaucoup (tirages sur carton, que nous n'avons pas).
-- **Pour la thèse :** le bord du film fonctionne comme le *cache* de Bazin, une fenêtre que le
-  regard traverse. Le cadre doré du musée et la mire avec la marque du YCBA (voir
-  [`ycba-gemini.md`](ycba-gemini.md)) fonctionnent comme des cadres *signifiants* : ils déplacent
-  le lieu, le propriétaire, le nom. La machine distingue donc en pratique le cadre-fenêtre du
-  cadre-étiquette.
+- **Pour la thèse :** ~~le bord du film fonctionne comme le *cache* de Bazin… la machine distingue
+  le cadre-fenêtre du cadre-étiquette~~. **Retiré le 17/10** (critique de Marcel, revue
+  `notes/revue/00-synthese.md`) : une réponse identique peut venir d'un bord non vu, vu puis
+  écarté, ou non sollicité par la question. Il reste à vérifier que le modèle voit le bord, et
+  qu'il s'en sert pour les questions sur l'objet.
 
 ## Limites
 
