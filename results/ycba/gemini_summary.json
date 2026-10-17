@@ -1,0 +1,237 @@
+{
+ "crop_framed|famous": {
+  "n": 10,
+  "price_median": 100000.0,
+  "art": 10,
+  "museum_place": 10,
+  "museum_owner": 9,
+  "artist_named": 0,
+  "frame_mentioned": 4
+ },
+ "crop_framed|other": {
+  "n": 20,
+  "price_median": 50000.0,
+  "art": 20,
+  "museum_place": 16,
+  "museum_owner": 20,
+  "artist_named": 2,
+  "frame_mentioned": 6
+ },
+ "crop_sheet|print": {
+  "n": 10,
+  "price_median": 3250.0,
+  "art": 7,
+  "museum_place": 2,
+  "museum_owner": 8,
+  "artist_named": 0,
+  "frame_mentioned": 0
+ },
+ "crop_unframed|famous": {
+  "n": 10,
+  "price_median": 200000.0,
+  "art": 10,
+  "museum_place": 4,
+  "museum_owner": 10,
+  "artist_named": 1,
+  "frame_mentioned": 0
+ },
+ "crop_unframed|other": {
+  "n": 20,
+  "price_median": 55000.0,
+  "art": 20,
+  "museum_place": 7,
+  "museum_owner": 20,
+  "artist_named": 0,
+  "frame_mentioned": 0
+ },
+ "cropped|famous": {
+  "n": 10,
+  "price_median": 115000.0,
+  "art": 10,
+  "museum_place": 5,
+  "museum_owner": 10,
+  "artist_named": 1,
+  "frame_mentioned": 1
+ },
+ "cropped|other": {
+  "n": 20,
+  "price_median": 50000.0,
+  "art": 20,
+  "museum_place": 9,
+  "museum_owner": 19,
+  "artist_named": 0,
+  "frame_mentioned": 0
+ },
+ "cropped|print": {
+  "n": 10,
+  "price_median": 4750.0,
+  "art": 10,
+  "museum_place": 0,
+  "museum_owner": 6,
+  "artist_named": 0,
+  "frame_mentioned": 0
+ },
+ "framed|famous": {
+  "n": 10,
+  "price_median": 65000.0,
+  "art": 10,
+  "museum_place": 10,
+  "museum_owner": 10,
+  "artist_named": 0,
+  "frame_mentioned": 4
+ },
+ "framed|other": {
+  "n": 20,
+  "price_median": 50000.0,
+  "art": 20,
+  "museum_place": 20,
+  "museum_owner": 20,
+  "artist_named": 2,
+  "frame_mentioned": 9
+ },
+ "sheet|print": {
+  "n": 10,
+  "price_median": 3500.0,
+  "art": 10,
+  "museum_place": 6,
+  "museum_owner": 10,
+  "artist_named": 0,
+  "frame_mentioned": 0
+ },
+ "unframed|famous": {
+  "n": 10,
+  "price_median": 150000.0,
+  "art": 10,
+  "museum_place": 9,
+  "museum_owner": 10,
+  "artist_named": 0,
+  "frame_mentioned": 0
+ },
+ "unframed|other": {
+  "n": 20,
+  "price_median": 60000.0,
+  "art": 20,
+  "museum_place": 16,
+  "museum_owner": 20,
+  "artist_named": 0,
+  "frame_mentioned": 0
+ },
+ "verso|famous": {
+  "n": 10,
+  "price_median": 275000.0,
+  "art": 8,
+  "museum_place": 10,
+  "museum_owner": 10,
+  "artist_named": 6,
+  "frame_mentioned": 2
+ },
+ "verso|other": {
+  "n": 20,
+  "price_median": 50000.0,
+  "art": 19,
+  "museum_place": 19,
+  "museum_owner": 20,
+  "artist_named": 9,
+  "frame_mentioned": 4
+ },
+ "_paired_price": {
+  "framed/unframed|famous": {
+   "n": 10,
+   "median_ratio": 0.75,
+   "higher": 3,
+   "equal": 2,
+   "lower": 5
+  },
+  "framed/unframed|other": {
+   "n": 20,
+   "median_ratio": 1.0,
+   "higher": 7,
+   "equal": 7,
+   "lower": 6
+  },
+  "framed/cropped|famous": {
+   "n": 10,
+   "median_ratio": 0.6,
+   "higher": 2,
+   "equal": 0,
+   "lower": 8
+  },
+  "framed/cropped|other": {
+   "n": 20,
+   "median_ratio": 1.0,
+   "higher": 8,
+   "equal": 4,
+   "lower": 8
+  },
+  "unframed/cropped|famous": {
+   "n": 10,
+   "median_ratio": 0.8,
+   "higher": 3,
+   "equal": 1,
+   "lower": 6
+  },
+  "unframed/cropped|other": {
+   "n": 20,
+   "median_ratio": 1.0,
+   "higher": 6,
+   "equal": 7,
+   "lower": 7
+  },
+  "crop_framed/framed|famous": {
+   "n": 10,
+   "median_ratio": 1.58,
+   "higher": 7,
+   "equal": 1,
+   "lower": 2
+  },
+  "crop_framed/framed|other": {
+   "n": 20,
+   "median_ratio": 0.82,
+   "higher": 3,
+   "equal": 6,
+   "lower": 11
+  },
+  "crop_framed/cropped|famous": {
+   "n": 10,
+   "median_ratio": 0.9,
+   "higher": 3,
+   "equal": 2,
+   "lower": 5
+  },
+  "crop_framed/cropped|other": {
+   "n": 20,
+   "median_ratio": 0.8,
+   "higher": 6,
+   "equal": 3,
+   "lower": 11
+  },
+  "verso/framed|famous": {
+   "n": 10,
+   "median_ratio": 2.17,
+   "higher": 5,
+   "equal": 1,
+   "lower": 4
+  },
+  "verso/framed|other": {
+   "n": 20,
+   "median_ratio": 1.0,
+   "higher": 8,
+   "equal": 3,
+   "lower": 9
+  },
+  "sheet/cropped|print": {
+   "n": 10,
+   "median_ratio": 0.75,
+   "higher": 4,
+   "equal": 0,
+   "lower": 6
+  },
+  "crop_sheet/sheet|print": {
+   "n": 10,
+   "median_ratio": 0.92,
+   "higher": 4,
+   "equal": 1,
+   "lower": 5
+  }
+ }
+}

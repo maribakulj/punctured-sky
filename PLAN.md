@@ -138,7 +138,7 @@ bruit (« domain shift », invariance) ; la thèse testée ici est qu'il porte d
          pendant (m9) ; reformuler la thèse selon les nouveaux résultats ; citer Wang, Larson &
          Zhao 2026 et les familles manquantes (I8) ; mineurs m1-m4, m8, m10, m12 ; Limites I5, I9.
       7. Seconde relecture adverse sur la version révisée.
-      8. **Après le réencodage** : `mv ~/impressions ~/punctured-sky`, `uv sync`, tests, mémoire.
+      8. ✅ 17/10/2026 : dossier renommé `~/punctured-sky` (lien symbolique `~/impressions` conservé).
          *Reporté (08/10) : Marcel a demandé le 07/10 de ne rien déplacer pendant l'inventaire du
          stockage (`~/stockage/inventaire/CONSIGNE.md`). Réencodage v2 fini (300/300), E4 v2 mesuré.*
       8b. **Revue de Codex (06/10)**, reprise le 08/10 : voir `notes/relecture-codex.md`. Fait,
