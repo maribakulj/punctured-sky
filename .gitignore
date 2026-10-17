@@ -20,3 +20,7 @@ data/ycba/gemini/planches/
 data/fsa/img/
 data/fsa/gemini/img/
 data/fsa/*.pt
+data/chien/src/*.jpg
+data/chien/inspect_src/img/
+data/chien/img/
+data/chien/gemini/img/

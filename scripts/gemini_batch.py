@@ -25,7 +25,7 @@ shard, nsh = (int(sys.argv[2]), int(sys.argv[3])) if len(sys.argv) > 3 else (0, 
 for i, f in enumerate(sorted((d / "img").glob("*.jpg"))):
     if i % nsh != shard:
         continue
-    for which in ("subject_only", "social"):
+    for which in prompts:
         if (f.name, which) in done:
             continue
         q = prompts[which] + f"\n\nImage : @{f.relative_to(d)}\nNe lis aucun autre fichier."

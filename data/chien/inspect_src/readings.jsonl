@@ -1,0 +1,9 @@
+{"file": "painting1.jpg", "which": "check", "model": "gemini-3.8-flash (agy -p)", "answer": {"n_chiens": 1, "chien_entier": "oui", "pose": "debout", "autres_sujets": "aucun", "technique": "peinture"}}
+{"file": "painting2.jpg", "which": "check", "model": "gemini-3.8-flash (agy -p)", "answer": {"n_chiens": 1, "chien_entier": "oui", "pose": "debout", "autres_sujets": "rochers, tronc d'arbre, paysage montagneux", "technique": "peinture"}}
+{"file": "painting3.jpg", "which": "check", "model": "gemini-3.8-flash (agy -p)", "answer": {"n_chiens": 1, "chien_entier": "oui", "pose": "debout", "autres_sujets": "gibier mort (renard suspendu, oiseaux dont bécasse, geai et pigeon), socle en pierre, arbre", "technique": "peinture"}}
+{"file": "photo1.jpg", "which": "check", "model": "gemini-3.8-flash (agy -p)", "answer": {"n_chiens": 1, "chien_entier": "non", "pose": "couché", "autres_sujets": "couverture", "technique": "photo"}}
+{"file": "photo2.jpg", "which": "check", "model": "gemini-3.8-flash (agy -p)", "answer": {"n_chiens": 1, "chien_entier": "oui", "pose": "couché", "autres_sujets": "poteau en bois, pelouse", "technique": "photo"}}
+{"file": "photo3.jpg", "which": "check", "model": "gemini-3.8-flash (agy -p)", "answer": {"n_chiens": 1, "chien_entier": "oui", "pose": "en mouvement", "autres_sujets": "barrière métallique, muret en pierre", "technique": "photo"}}
+{"file": "photo4.jpg", "which": "check", "model": "gemini-3.8-flash (agy -p)", "answer": {"n_chiens": "1", "chien_entier": "non", "pose": "assis", "autres_sujets": "aucun", "technique": "photo"}}
+{"file": "photo5.jpg", "which": "check", "model": "gemini-3.8-flash (agy -p)", "answer": {"n_chiens": 1, "chien_entier": "non", "pose": "debout", "autres_sujets": "aucun", "technique": "photo"}}
+{"file": "photo6.jpg", "which": "check", "model": "gemini-3.8-flash (agy -p)", "answer": {"n_chiens": 1, "chien_entier": "oui", "pose": "debout", "autres_sujets": "aucun", "technique": "photo"}}

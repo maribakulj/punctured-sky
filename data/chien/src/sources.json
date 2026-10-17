@@ -1,0 +1,77 @@
+[
+ {
+  "file": "photo1.jpg",
+  "kind": "photo",
+  "title": "File:Beagle sleeping in Hautmont (DSC07212).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Beagle_sleeping_in_Hautmont_(DSC07212).jpg",
+  "licence": "CC BY 4.0",
+  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Trougnouf\" title=\"User:Trougnouf\">Trougnouf (Benoit Brummer)</a>"
+ },
+ {
+  "file": "photo2.jpg",
+  "kind": "photo",
+  "title": "File:20110425 German Shepherd Dog 8505.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:20110425_German_Shepherd_Dog_8505.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jakubhal\" title=\"User:Jakubhal\">Jakub Hałun</a>"
+ },
+ {
+  "file": "photo3.jpg",
+  "kind": "photo",
+  "title": "File:Benasque - Anciles - Labrador Retriever.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Benasque_-_Anciles_-_Labrador_Retriever.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Basotxerri\" title=\"User:Basotxerri\">Basotxerri</a>"
+ },
+ {
+  "file": "photo4.jpg",
+  "kind": "photo",
+  "title": "File:Dülmen, Hausdülmen, Golden Retriever -- 2022 -- 5945.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Hausd%C3%BClmen,_Golden_Retriever_--_2022_--_5945.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q34788025\" class=\"extiw\" title=\"d:Q34788025\"><span title=\"German photographer and mathematician\">Dietmar Rabich</span></a></bdi>"
+ },
+ {
+  "file": "photo5.jpg",
+  "kind": "photo",
+  "title": "File:Benasque - Linsoles - Galgo 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Benasque_-_Linsoles_-_Galgo_01.jpg",
+  "licence": "CC BY-SA 4.0",
+  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Basotxerri\" title=\"User:Basotxerri\">Basotxerri</a>"
+ },
+ {
+  "file": "photo6.jpg",
+  "kind": "photo",
+  "title": "File:Bronco the Beagle.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Bronco_the_Beagle.JPG",
+  "licence": "CC BY-SA 4.0",
+  "author": "PumpkinSky"
+ },
+ {
+  "file": "painting1.jpg",
+  "kind": "painting",
+  "title": "A Limier Briquet Hound",
+  "artist": "Rosa Bonheur",
+  "date": "ca. 1856",
+  "page": "https://www.metmuseum.org/art/collection/search/435704",
+  "licence": "CC0 (Met Open Access)"
+ },
+ {
+  "file": "painting2.jpg",
+  "kind": "painting",
+  "title": "A Deerhound",
+  "artist": "Sir Edwin Henry Landseer",
+  "date": "1826",
+  "page": "https://www.metmuseum.org/art/collection/search/782306",
+  "licence": "CC0 (Met Open Access)"
+ },
+ {
+  "file": "painting3.jpg",
+  "kind": "painting",
+  "title": "Dog Guarding Dead Game",
+  "artist": "Jean-Baptiste Oudry",
+  "date": "1753",
+  "page": "https://www.metmuseum.org/art/collection/search/437234",
+  "licence": "CC0 (Met Open Access)"
+ }
+]
