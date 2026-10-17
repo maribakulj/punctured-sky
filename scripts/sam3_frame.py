@@ -26,8 +26,12 @@ proc = Sam3Processor.from_pretrained("facebook/sam3")
 model = Sam3Model.from_pretrained("facebook/sam3").to(dev).eval()
 sel = json.loads(Path("data/ycba/pilot.json").read_text())
 limit = int(sys.argv[1]) if len(sys.argv) > 1 else 10**9
-out = []
+outp = Path("data/ycba/sam3.json")
+out = json.loads(outp.read_text()) if outp.exists() else []
+seen = {r["obj"] for r in out}
 for obj in (sel["paintings"] + sel["prints"])[:limit]:
+    if obj in seen:
+        continue
     for v in ("framed", "unframed", "sheet"):
         p = Path(f"data/ycba/img/{obj}__{v}.jpg")
         if not p.exists():
