@@ -6,7 +6,7 @@ mounts) as noise and assert, without measuring, that it disturbs the models. Her
 the support changes to a reading. Public-domain scans from tile.loc.gov (LoC "v" reference JPEGs).
   sample   random b&w negatives (fsa 8a-8e) and colour transparencies (fsac 1a), resumable;
   crop     the photographic area by Arnold & Tilton's own YOLOv8 (data/fsa/project-4.pt);
-  blind    opaque copies of full/crop views into data/fsa/gemini/img + data/fsa/map.jsonl.
+  blind    (objects with a confident crop: conf >= 0.9, area kept >= 0.5) opaque copies of full/crop views into data/fsa/gemini/img + data/fsa/map.jsonl.
 """
 import hashlib, json, random, shutil, sys, time, urllib.request
 from pathlib import Path
@@ -69,7 +69,11 @@ def crop():
 def blind():
     g = D / "gemini" / "img"; g.mkdir(parents=True, exist_ok=True)
     rows = []
+    meta = json.loads((D / "sample.json").read_text())
+    keep = {k for k, v in meta.items() if (v.get("conf") or 0) >= 0.9 and (v.get("area_kept") or 0) >= 0.5}
     for p in sorted(IMG.glob("*.jpg")):
+        if p.stem.split("__")[0] not in keep:
+            continue
         h = hashlib.sha256(b"fsa-pilot-2026" + p.name.encode()).hexdigest()[:12]
         shutil.copy(p, g / f"{h}.jpg")
         id_, view = p.stem.split("__")

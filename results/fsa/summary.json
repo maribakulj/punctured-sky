@@ -1,0 +1,68 @@
+{
+ "bw": {
+  "n": 30,
+  "full": {
+   "year_median": 1930.0,
+   "price_median": 5000.0,
+   "art": 0,
+   "inst_owner": 1,
+   "inst_place": 0,
+   "support_named": 0,
+   "support_in_subject": 0
+  },
+  "crop": {
+   "year_median": 1930.0,
+   "price_median": 5000.0,
+   "art": 0,
+   "inst_owner": 0,
+   "inst_place": 0,
+   "support_named": 0,
+   "support_in_subject": 0
+  },
+  "price_full_over_crop": {
+   "median": 1.0,
+   "higher": 9,
+   "equal": 12,
+   "lower": 8
+  },
+  "year_full_minus_crop": {
+   "median": 0.0,
+   "older": 1,
+   "same": 25,
+   "younger": 4
+  }
+ },
+ "colour": {
+  "n": 13,
+  "full": {
+   "year_median": 1940.0,
+   "price_median": 135000.0,
+   "art": 1,
+   "inst_owner": 0,
+   "inst_place": 0,
+   "support_named": 0,
+   "support_in_subject": 0
+  },
+  "crop": {
+   "year_median": 1940,
+   "price_median": 125000.0,
+   "art": 1,
+   "inst_owner": 0,
+   "inst_place": 0,
+   "support_named": 0,
+   "support_in_subject": 0
+  },
+  "price_full_over_crop": {
+   "median": 1.0,
+   "higher": 2,
+   "equal": 6,
+   "lower": 4
+  },
+  "year_full_minus_crop": {
+   "median": 0,
+   "older": 0,
+   "same": 10,
+   "younger": 1
+  }
+ }
+}

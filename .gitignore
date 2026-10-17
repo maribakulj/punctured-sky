@@ -17,3 +17,6 @@ data/ycba/img/
 data/ycba/crops/
 data/ycba/gemini/img/
 data/ycba/gemini/planches/
+data/fsa/img/
+data/fsa/gemini/img/
+data/fsa/*.pt

@@ -1,0 +1,36 @@
+{
+ "n": 43,
+ "n_bw": 30,
+ "clip": {
+  "self_sim": 0.9345065355300903,
+  "top1": 1.0,
+  "other_full_bw": 0.6765787601470947,
+  "other_crop_bw": 0.6548051238059998,
+  "other_full_colour": 0.6743725538253784,
+  "other_crop_colour": 0.6445084810256958
+ },
+ "siglip": {
+  "self_sim": 0.9454412460327148,
+  "top1": 1.0,
+  "other_full_bw": 0.6512280702590942,
+  "other_crop_bw": 0.6376873254776001,
+  "other_full_colour": 0.665730893611908,
+  "other_crop_colour": 0.6355031728744507
+ },
+ "dinov2": {
+  "self_sim": 0.9120591878890991,
+  "top1": 1.0,
+  "other_full_bw": 0.13045455515384674,
+  "other_crop_bw": 0.1124216839671135,
+  "other_full_colour": 0.12191068381071091,
+  "other_crop_colour": 0.11655424535274506
+ },
+ "dinov3": {
+  "self_sim": 0.9201163649559021,
+  "top1": 1.0,
+  "other_full_bw": 0.10775572806596756,
+  "other_crop_bw": 0.10751745849847794,
+  "other_full_colour": 0.06458238512277603,
+  "other_crop_colour": 0.06129346042871475
+ }
+}
