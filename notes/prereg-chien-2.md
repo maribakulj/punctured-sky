@@ -90,3 +90,17 @@ Prédictions :
 - SmolVLM n'a pas été choisi pour une raison théorique : il est petit, libre, et tient sur le
   disque, où il reste environ 12 Go de place.
 - 24 lectures par case : la puissance reste faible.
+
+## Modifications avant toute lecture (23/10/2026)
+
+- **B4, placement.** L'image grandeur nature est posée au sol **à la place du chien de P0** dans la galerie,
+  et contre le **bord droit** de la pièce dans le salon. Le sol du salon n'est qu'une bande au premier
+  plan, sous la table basse : placée comme le chien de P0, l'image traversait la table, défaut signalé
+  par Gemini sur 2 planches. Les 6 images corrigées ont été réinspectées sans défaut
+  (`data/chien2/inspect_b4/`).
+- **Inspection.** 115 montages sur 120 sont décrits comme prévu. Écarts : 2 « bords fondus » du salon
+  vus comme un rectangle net (ou un cadre doré), et 1 image E1 vue « dans un cadre uni ». Nous ne les
+  corrigeons pas : ces écarts sont des lectures, pas des défauts de montage.
+- **Volet B reporté.** Il reste 2,4 Go libres sur le disque, et BBVLM, projet prioritaire, en a besoin. Le
+  volet A (Gemini, sans calcul local) part seul. Le volet B attendra de la place, ou un calcul en
+  ligne, sans changer ses prédictions.

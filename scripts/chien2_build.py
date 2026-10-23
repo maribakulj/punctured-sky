@@ -50,7 +50,12 @@ def life_size(bg, dog, src, space):
     bb = m.getbbox(); f = (bb[3] - bb[1]) / src.height
     h = min(h_dog / f, 0.95 * base)
     r = src.resize((int(src.width * h / src.height), int(h)), Image.LANCZOS).convert("RGBA")
-    x, y = int(cx - r.width / 2), int(base - r.height)
+    if space == "salon":
+        # the floor there is a thin foreground band under the coffee table: stand the picture
+        # against the right edge of the room so that it does not cut through the furniture
+        base = 0.99 * H; x, y = int(W - r.width - 0.01 * W), int(base - r.height)
+    else:
+        x, y = int(cx - r.width / 2), int(base - r.height)
     out = bg.convert("RGBA")
     sh = Image.new("L", bg.size, 0)
     sh.paste(255, [x + 8, int(base - 6), x + r.width + 8, int(base + 6)])
