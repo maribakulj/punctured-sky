@@ -739,3 +739,7 @@ lectures dès l'image nue, sans cadre (effet plafond, contradiction (a) réalis�
 n'obéit à « POMME » (0/96), alors que la phrase est lue 48/48 (contrôle ajouté, exploratoire).
 Seul trouble : le chien découpé sans rectangle (W5), dit absent 50 %. Le bord droit compte, pas
 l'ornement. q_aboie écartée (mal conçue). Note : `notes/chien-resultats.md`.
+
+## 23/10/2026 — chien 2, volet A (Gemini)
+
+422 lectures sur 432 (10 échecs réseau). Ancres valides (W1 100 %, W5 71 %). Ovale, bords fondus, halo, grandeur nature : 100 % de « pas de chien » comme W1. A1, A3, A4 non confirmées, A2 confirmée ; contradictions (e) et (f) réalisées : ni bord net ni forme régulière nécessaires, un peu de fond suffit. Seule la découpe sans fond trouble Gemini. Note de résultats à écrire ; volet B (SmolVLM) en attente de disque.

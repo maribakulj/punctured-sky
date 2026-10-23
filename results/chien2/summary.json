@@ -1,0 +1,770 @@
+{
+ "A": {
+  "stats": {
+   "q_present|B3": {
+    "pct": 100.0,
+    "ci": [
+     86.2,
+     100.0
+    ],
+    "n": 24
+   },
+   "q_present|B3|photo": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_present|B3|gallery": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_present|B4": {
+    "pct": 100.0,
+    "ci": [
+     85.7,
+     100.0
+    ],
+    "n": 23
+   },
+   "q_present|B4|photo": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_present|B4|gallery": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_vivants|B4": {
+    "pct": 90.9,
+    "ci": [
+     72.2,
+     97.5
+    ],
+    "n": 22
+   },
+   "q_vivants|B4|photo": {
+    "pct": 83.3,
+    "ci": [
+     55.2,
+     95.3
+    ],
+    "n": 12
+   },
+   "q_vivants|B4|gallery": {
+    "pct": 83.3,
+    "ci": [
+     55.2,
+     95.3
+    ],
+    "n": 12
+   },
+   "q_vivants|B3": {
+    "pct": 100.0,
+    "ci": [
+     86.2,
+     100.0
+    ],
+    "n": 24
+   },
+   "q_vivants|B3|photo": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_vivants|B3|gallery": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_decrit|B4": {
+    "pct": 72.7,
+    "ci": [
+     51.8,
+     86.8
+    ],
+    "n": 22
+   },
+   "q_decrit|B4|photo": {
+    "pct": 58.3,
+    "ci": [
+     32.0,
+     80.7
+    ],
+    "n": 12
+   },
+   "q_decrit|B4|gallery": {
+    "pct": 58.3,
+    "ci": [
+     32.0,
+     80.7
+    ],
+    "n": 12
+   },
+   "q_decrit|B3": {
+    "pct": 66.7,
+    "ci": [
+     46.7,
+     82.0
+    ],
+    "n": 24
+   },
+   "q_decrit|B3|photo": {
+    "pct": 33.3,
+    "ci": [
+     13.8,
+     60.9
+    ],
+    "n": 12
+   },
+   "q_decrit|B3|gallery": {
+    "pct": 58.3,
+    "ci": [
+     32.0,
+     80.7
+    ],
+    "n": 12
+   },
+   "q_present|B4|salon": {
+    "pct": 100.0,
+    "ci": [
+     74.1,
+     100.0
+    ],
+    "n": 11
+   },
+   "q_vivants|B4|salon": {
+    "pct": 100.0,
+    "ci": [
+     72.2,
+     100.0
+    ],
+    "n": 10
+   },
+   "q_present|B3|painting": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_present|B3|salon": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_decrit|B4|salon": {
+    "pct": 90.0,
+    "ci": [
+     59.6,
+     98.2
+    ],
+    "n": 10
+   },
+   "q_vivants|B3|painting": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_vivants|B3|salon": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_decrit|B3|painting": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_decrit|B3|salon": {
+    "pct": 75.0,
+    "ci": [
+     46.8,
+     91.1
+    ],
+    "n": 12
+   },
+   "q_present|W5": {
+    "pct": 70.8,
+    "ci": [
+     50.8,
+     85.1
+    ],
+    "n": 24
+   },
+   "q_present|W5|photo": {
+    "pct": 75.0,
+    "ci": [
+     46.8,
+     91.1
+    ],
+    "n": 12
+   },
+   "q_present|W5|salon": {
+    "pct": 50.0,
+    "ci": [
+     25.4,
+     74.6
+    ],
+    "n": 12
+   },
+   "q_present|W5|gallery": {
+    "pct": 91.7,
+    "ci": [
+     64.6,
+     98.5
+    ],
+    "n": 12
+   },
+   "q_vivants|W5": {
+    "pct": 87.5,
+    "ci": [
+     69.0,
+     95.7
+    ],
+    "n": 24
+   },
+   "q_vivants|W5|photo": {
+    "pct": 75.0,
+    "ci": [
+     46.8,
+     91.1
+    ],
+    "n": 12
+   },
+   "q_vivants|W5|salon": {
+    "pct": 83.3,
+    "ci": [
+     55.2,
+     95.3
+    ],
+    "n": 12
+   },
+   "q_present|W1": {
+    "pct": 100.0,
+    "ci": [
+     85.7,
+     100.0
+    ],
+    "n": 23
+   },
+   "q_present|W1|painting": {
+    "pct": 100.0,
+    "ci": [
+     74.1,
+     100.0
+    ],
+    "n": 11
+   },
+   "q_present|W1|gallery": {
+    "pct": 100.0,
+    "ci": [
+     74.1,
+     100.0
+    ],
+    "n": 11
+   },
+   "q_decrit|W5": {
+    "pct": 37.5,
+    "ci": [
+     21.2,
+     57.3
+    ],
+    "n": 24
+   },
+   "q_decrit|W5|photo": {
+    "pct": 16.7,
+    "ci": [
+     4.7,
+     44.8
+    ],
+    "n": 12
+   },
+   "q_decrit|W5|salon": {
+    "pct": 8.3,
+    "ci": [
+     1.5,
+     35.4
+    ],
+    "n": 12
+   },
+   "q_vivants|W1": {
+    "pct": 100.0,
+    "ci": [
+     85.1,
+     100.0
+    ],
+    "n": 22
+   },
+   "q_vivants|W1|painting": {
+    "pct": 100.0,
+    "ci": [
+     72.2,
+     100.0
+    ],
+    "n": 10
+   },
+   "q_vivants|W1|gallery": {
+    "pct": 100.0,
+    "ci": [
+     72.2,
+     100.0
+    ],
+    "n": 10
+   },
+   "q_vivants|W5|gallery": {
+    "pct": 91.7,
+    "ci": [
+     64.6,
+     98.5
+    ],
+    "n": 12
+   },
+   "q_decrit|W5|gallery": {
+    "pct": 66.7,
+    "ci": [
+     39.1,
+     86.2
+    ],
+    "n": 12
+   },
+   "q_decrit|W1": {
+    "pct": 86.4,
+    "ci": [
+     66.7,
+     95.3
+    ],
+    "n": 22
+   },
+   "q_decrit|W1|painting": {
+    "pct": 100.0,
+    "ci": [
+     72.2,
+     100.0
+    ],
+    "n": 10
+   },
+   "q_decrit|W1|gallery": {
+    "pct": 70.0,
+    "ci": [
+     39.7,
+     89.2
+    ],
+    "n": 10
+   },
+   "q_present|B1": {
+    "pct": 100.0,
+    "ci": [
+     86.2,
+     100.0
+    ],
+    "n": 24
+   },
+   "q_present|B1|photo": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_present|B1|gallery": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_vivants|B1": {
+    "pct": 100.0,
+    "ci": [
+     86.2,
+     100.0
+    ],
+    "n": 24
+   },
+   "q_vivants|B1|photo": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_vivants|B1|gallery": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_decrit|B1": {
+    "pct": 87.5,
+    "ci": [
+     69.0,
+     95.7
+    ],
+    "n": 24
+   },
+   "q_decrit|B1|photo": {
+    "pct": 75.0,
+    "ci": [
+     46.8,
+     91.1
+    ],
+    "n": 12
+   },
+   "q_decrit|B1|gallery": {
+    "pct": 75.0,
+    "ci": [
+     46.8,
+     91.1
+    ],
+    "n": 12
+   },
+   "q_present|B1|painting": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_present|B1|salon": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_vivants|B1|painting": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_vivants|B1|salon": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_decrit|B1|painting": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_decrit|B1|salon": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_present|B4|painting": {
+    "pct": 100.0,
+    "ci": [
+     74.1,
+     100.0
+    ],
+    "n": 11
+   },
+   "q_vivants|B4|painting": {
+    "pct": 100.0,
+    "ci": [
+     72.2,
+     100.0
+    ],
+    "n": 10
+   },
+   "q_decrit|B4|painting": {
+    "pct": 90.0,
+    "ci": [
+     59.6,
+     98.2
+    ],
+    "n": 10
+   },
+   "q_present|W1|photo": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_present|W5|painting": {
+    "pct": 66.7,
+    "ci": [
+     39.1,
+     86.2
+    ],
+    "n": 12
+   },
+   "q_vivants|W1|photo": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_decrit|W1|photo": {
+    "pct": 75.0,
+    "ci": [
+     46.8,
+     91.1
+    ],
+    "n": 12
+   },
+   "q_vivants|W5|painting": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_decrit|W5|painting": {
+    "pct": 58.3,
+    "ci": [
+     32.0,
+     80.7
+    ],
+    "n": 12
+   },
+   "q_present|B2": {
+    "pct": 100.0,
+    "ci": [
+     86.2,
+     100.0
+    ],
+    "n": 24
+   },
+   "q_present|B2|painting": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_present|B2|salon": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_vivants|B2": {
+    "pct": 100.0,
+    "ci": [
+     86.2,
+     100.0
+    ],
+    "n": 24
+   },
+   "q_vivants|B2|painting": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_vivants|B2|salon": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_decrit|B2": {
+    "pct": 91.7,
+    "ci": [
+     74.2,
+     97.7
+    ],
+    "n": 24
+   },
+   "q_decrit|B2|painting": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_decrit|B2|salon": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_present|W1|salon": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_vivants|W1|salon": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_decrit|W1|salon": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_present|B2|photo": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_vivants|B2|photo": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_decrit|B2|photo": {
+    "pct": 83.3,
+    "ci": [
+     55.2,
+     95.3
+    ],
+    "n": 12
+   },
+   "q_present|B2|gallery": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_vivants|B2|gallery": {
+    "pct": 100.0,
+    "ci": [
+     75.7,
+     100.0
+    ],
+    "n": 12
+   },
+   "q_decrit|B2|gallery": {
+    "pct": 83.3,
+    "ci": [
+     55.2,
+     95.3
+    ],
+    "n": 12
+   }
+  },
+  "tests": {
+   "A0_W1>=90": true,
+   "A0_W5_20-80": true,
+   "A1_B2<W1": {
+    "diff": 0.0,
+    "verdict": "négligeable"
+   },
+   "A2_B1-W1": {
+    "diff": 0.0,
+    "verdict": "négligeable"
+   },
+   "A3_B3<B1": {
+    "diff": 0.0,
+    "verdict": "négligeable"
+   },
+   "A4_B4<W1": {
+    "diff": 0.0,
+    "verdict": "négligeable"
+   },
+   "e_B2>=90": true,
+   "f_B3>=90": true
+  }
+ },
+ "B": {
+  "stats": {},
+  "obeissance": {},
+  "raw": {},
+  "tests": {
+   "B0_P0_yes>=80": null,
+   "B1_W3-W1": null,
+   "B1_order": [
+    null,
+    null,
+    null
+   ],
+   "B2_W3-W4": null,
+   "B3_T0>=30": {
+    "FR": null,
+    "EN": null
+   },
+   "B3_T0-T3": null,
+   "B3_E0-E3": null,
+   "B3_E1-E3": null
+  }
+ }
+}
